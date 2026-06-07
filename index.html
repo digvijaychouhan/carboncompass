@@ -3,332 +3,254 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CarbonCompass — Climate Tech Intelligence Hub</title>
+  <title>CarbonCompass — Institutional Compliance Matrix</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet" />
   <style>
     :root {
-      --bg: #fcfcfd;            /* Pristine crisp light gray canvas */
-      --surface: #ffffff;       /* Pure white elements */
-      --border: #e4e4e7;        /* Subtle divider gray */
-      --text: #09090b;          /* High contrast obsidian text */
-      --muted: #71717a;         /* Subdued professional caption text */
-      --accent: #0f766e;        /* Deep, authoritative institutional Teal accent */
-      --accent-light: #f0fdfa;  /* Very soft teal tint for clean pills */
-      --amber: #d97706;         /* Refined corporate amber */
+      --bg: #ffffff;            /* Editorial pure white */
+      --surface: #fafafa;       /* Subtle gallery light-gray background */
+      --border: #18181b;        /* High-visibility deep charcoal structural lines */
+      --border-muted: #e4e4e7;  /* Soft divider gray */
+      --text: #09090b;          /* High-density crisp black text */
+      --muted: #52525b;         /* Readable mid-tone body gray */
+      --accent: #0f766e;        /* Professional institutional dark teal */
+      --accent-light: #f0fdfa;  /* Clean accent background tint */
     }
 
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     body {
-      background: var(--bg);
-      color: var(--text);
-      font-family: 'Plus Jakarta Sans', sans-serif;
-      font-size: 15px;
-      line-height: 1.6;
-      -webkit-font-smoothing: antialiased;
+      background: var(--bg); color: var(--text);
+      font-family: 'Plus Jakarta Sans', sans-serif; font-size: 15px; line-height: 1.625;
+      -webkit-font-smoothing: antialiased; padding-bottom: 5rem;
     }
 
     /* ── HEADER NAVIGATION ── */
     nav {
-      position: sticky; top: 0; z-index: 100;
-      background: rgba(255, 255, 255, 0.85);
-      backdrop-filter: blur(12px);
-      border-bottom: 1px solid var(--border);
-      padding: 0 2rem;
-      display: flex; align-items: center; justify-content: space-between;
-      height: 65px;
+      position: sticky; top: 0; z-index: 100; background: rgba(255, 255, 255, 0.95);
+      border-bottom: 2px solid var(--border); padding: 0 2rem;
+      display: flex; align-items: center; justify-content: space-between; height: 70px;
     }
-    .nav-brand { display: flex; align-items: center; gap: 0.6rem; text-decoration: none; }
-    .nav-logo { font-size: 1.3rem; }
-    .nav-title {
-      font-family: 'Playfair Display', serif;
-      font-weight: 700; font-size: 1.25rem; color: var(--text);
-    }
-    .nav-links { display: flex; gap: 0.5rem; list-style: none; }
+    .nav-brand { display: flex; align-items: center; gap: 0.5rem; text-decoration: none; color: var(--text); }
+    .nav-title { font-family: 'Playfair Display', serif; font-weight: 700; font-size: 1.4rem; }
+    .nav-links { display: flex; gap: 0.25rem; list-style: none; }
     .nav-links button {
-      background: none; border: none; color: var(--muted);
-      padding: 0.5rem 1rem; border-radius: 6px;
-      font-size: 0.88rem; font-weight: 500; cursor: pointer;
-      transition: all 0.2s ease; font-family: inherit;
+      background: none; border: none; color: var(--muted); padding: 0.5rem 1rem;
+      font-size: 0.88rem; font-weight: 600; cursor: pointer; border-radius: 4px; transition: all 0.15s;
     }
     .nav-links button:hover, .nav-links button.active {
-      color: var(--accent); background: var(--accent-light);
+      color: var(--bg); background: var(--border);
     }
 
-    /* ── CONTAINER LAYOUT ── */
-    .app-container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+    /* ── LAYOUT CONTAINER ── */
+    .container { max-width: 1240px; margin: 0 auto; padding: 2rem; }
     
-    /* ── HERO GRID ── */
+    /* ── SYSTEM MATRIX HERO ── */
     .hero {
-      display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 4rem;
-      padding: 3rem 0; border-bottom: 1px solid var(--border); margin-bottom: 2rem;
+      border: 2px solid var(--border); background: var(--surface);
+      padding: 3rem; margin-bottom: 3rem; display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 3rem;
     }
-    .hero h1 {
-      font-family: 'Playfair Display', serif; font-size: 3rem;
-      font-weight: 700; line-height: 1.15; margin-bottom: 1rem; letter-spacing: -0.01em;
+    .hero-text h1 {
+      font-family: 'Playfair Display', serif; font-size: 2.75rem; font-weight: 700; line-height: 1.15; margin-bottom: 1rem;
     }
-    .hero h1 em { font-style: italic; color: var(--accent); font-weight: 400; }
-    .hero p { color: var(--muted); font-size: 1.05rem; line-height: 1.6; margin-bottom: 1.5rem; }
+    .hero-text h1 em { font-style: italic; font-weight: 400; color: var(--accent); }
+    .hero-text p { color: var(--muted); font-size: 1.05rem; max-width: 600px; }
+    
+    /* Live Market Pulse Box */
+    .market-pulse-box { background: var(--bg); border: 1px solid var(--border); padding: 1.5rem; }
+    .pulse-title { font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1rem; }
+    .pulse-row { display: flex; justify-content: space-between; padding: 0.5rem 0; font-size: 0.9rem; border-bottom: 1px dashed var(--border-muted); }
+    .pulse-row:last-child { border-bottom: none; }
+    .pulse-price { font-weight: 700; color: var(--accent); }
 
-    /* ── REALTIME TICKER DISPLAY ── */
-    .ticker-box {
-      background: var(--surface); border: 1px solid var(--border);
-      border-radius: 12px; padding: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-    }
-    .ticker-title { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin-bottom: 1rem; font-weight: 600; }
-    .ticker-item {
-      display: flex; justify-content: space-between; padding: 0.75rem 0;
-      border-bottom: 1px solid #f4f4f5; font-size: 0.9rem;
-    }
-    .ticker-item:last-child { border-bottom: none; }
-    .ticker-val { font-weight: 600; color: var(--accent); }
-
-    /* ── TAB CONTENT MANAGER ── */
+    /* ── EDITORIAL TAB PANELS ── */
     .tab-panel { display: none; }
-    .tab-panel.active { display: block; animation: fadeIn 0.4s ease forwards; }
-
-    .panel-header { margin-bottom: 2rem; }
-    .panel-header h2 { font-family: 'Playfair Display', serif; font-size: 1.8rem; color: var(--text); }
-
-    /* ── CARDS DESIGN & IMAGE SLOTS ── */
-    .card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 1.5rem; }
-    .content-card {
-      background: var(--surface); border: 1px solid var(--border);
-      border-radius: 12px; overflow: hidden; display: flex; flex-direction: column;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.02); transition: transform 0.2s, border-color 0.2s;
-    }
-    .content-card:hover { transform: translateY(-2px); border-color: var(--accent); }
+    .tab-panel.active { display: block; }
     
-    .card-image {
-      width: 100%; height: 180px; background-color: #f1f5f9;
-      background-size: cover; background-position: center;
-      border-bottom: 1px solid var(--border);
-    }
-    .card-body { padding: 1.5rem; flex-grow: 1; display: flex; flex-direction: column; }
-    
-    .card-tag {
-      font-size: 0.7rem; font-weight: 600; text-transform: uppercase;
-      padding: 0.2rem 0.5rem; background: var(--accent-light);
-      color: var(--accent); border-radius: 4px; width: max-content; margin-bottom: 0.75rem;
-    }
-    .card-title { font-size: 1.1rem; font-weight: 600; margin-bottom: 0.5rem; color: var(--text); }
-    .card-text { color: var(--muted); font-size: 0.88rem; line-height: 1.5; margin-bottom: 1rem; }
-    
-    .card-footer {
-      margin-top: auto; padding-top: 1rem; border-top: 1px solid #f4f4f5;
-      display: flex; justify-content: space-between; align-items: center;
-      font-size: 0.8rem; color: var(--muted);
-    }
+    .panel-intro { margin-bottom: 2.5rem; border-bottom: 1px solid var(--border); padding-bottom: 1rem; }
+    .panel-intro h2 { font-family: 'Playfair Display', serif; font-size: 2rem; font-weight: 700; }
+    .panel-intro p { color: var(--muted); font-size: 1rem; margin-top: 0.25rem; }
 
-    @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
-    @media (max-width: 768px) { .hero { grid-template-columns: 1fr; gap: 2rem; } .nav-links { display: none; } }
+    /* ── EDITORIAL CONTENT TABLE BLOCKS ── */
+    .data-table { width: 100%; border-collapse: collapse; margin-top: 1rem; background: var(--bg); }
+    .data-table th { background: var(--border); color: var(--bg); text-align: left; padding: 0.75rem 1rem; font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.02em; }
+    .data-table td { padding: 1rem; border-bottom: 1px solid var(--border-muted); vertical-align: top; font-size: 0.9rem; }
+    .data-table tr:hover td { background: var(--surface); }
+
+    /* ── GRID LAYOUT FOR SECTIONS ── */
+    .dense-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); gap: 1.5rem; }
+    .editorial-card { border: 1px solid var(--border); padding: 1.75rem; background: var(--bg); display: flex; flex-direction: column; justify-content: space-between; }
+    .editorial-card:hover { border-width: 2px; padding: calc(1.75rem - 1px); background: var(--surface); }
+    
+    .card-meta { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--accent); margin-bottom: 0.5rem; }
+    .card-head { font-family: 'Playfair Display', serif; font-size: 1.35rem; font-weight: 700; margin-bottom: 0.75rem; line-height: 1.25; }
+    .card-body-text { color: var(--muted); font-size: 0.88rem; line-height: 1.6; margin-bottom: 1.25rem; }
+    
+    .bullet-list { list-style: none; margin: 1rem 0; }
+    .bullet-list li { font-size: 0.85rem; position: relative; padding-left: 1.25rem; margin-bottom: 0.5rem; color: var(--muted); }
+    .bullet-list li::before { content: "—"; position: absolute; left: 0; color: var(--border); font-weight: bold; }
+
+    .card-foot-meta { font-size: 0.78rem; font-weight: 600; border-top: 1px solid var(--border-muted); padding-top: 0.75rem; margin-top: auto; display: flex; justify-content: space-between; }
+
+    @media (max-width: 768px) { .hero { grid-template-columns: 1fr; padding: 1.5rem; gap: 1.5rem; } .nav-links { display: none; } }
   </style>
 </head>
 <body>
 
   <nav>
     <a href="#" class="nav-brand">
-      <span class="nav-logo">🧭</span>
       <span class="nav-title">CarbonCompass</span>
     </a>
     <div class="nav-links">
-      <button class="active" onclick="switchTab('news')">Latest News</button>
-      <button onclick="switchTab('guides')">Topic Guides</button>
-      <button onclick="switchTab('certifications')">Certifications</button>
-      <button onclick="switchTab('startups')">Startup Tracker</button>
-      <button onclick="switchTab('articles')">Deep Articles</button>
+      <button class="active" onclick="switchTab('market')">1. Market Landscape</button>
+      <button onclick="switchTab('frameworks')">2. Core Frameworks</button>
+      <button onclick="switchTab('services')">3. Service Lines</button>
+      <button onclick="switchTab('certifications')">4. Credentials Registry</button>
+      <button onclick="switchTab('economics')">5. Financial Benchmarks</button>
     </div>
   </nav>
 
-  <div class="app-container">
-    <div class="hero">
-      <div>
-        <h1>Your clear blueprint for <em>Net Zero</em> compliance.</h1>
-        <p>An institutional-grade knowledge database built for incoming climate advisors. Zero noise. Filter dynamically across core regulatory frameworks.</p>
+  <div class="container">
+    
+    <!-- SYSTEM ENTRY BANNER -->
+    <header class="hero">
+      <div class="hero-text">
+        <h1>Institutional Curation for <em>Climate Compliance</em></h1>
+        <p>A rigorous, evidence-driven career blueprint structured for finance, engineering, and legal professionals evaluating carbon risk advisory pathways.</p>
       </div>
-      <div class="ticker-box">
-        <div class="ticker-title">📈 Real-Time Compliance Pulse</div>
-        <div id="liveTicker">
-          <div class="ticker-item"><span>EU Allowance (ETS)</span><span class="ticker-val" id="val-eu">Loading...</span></div>
-          <div class="ticker-item"><span>UK Allowance (ETS)</span><span class="ticker-val" id="val-uk">Loading...</span></div>
-          <div class="ticker-item"><span>EEX Global Carbon Index</span><span class="ticker-val" id="val-gci">Loading...</span></div>
+      <div class="market-pulse-box">
+        <div class="pulse-title">Compliance Index Ticker</div>
+        <div id="tickerContents">
+          <div class="pulse-row"><span>EU Allowance (EUA) — 2026 Forecast</span><span class="pulse-price">€83 - €92 / t</span></div>
+          <div class="pulse-row"><span>Target Price — 2030 Horizon</span><span class="pulse-price">~€130 / t</span></div>
+          <div class="pulse-row"><span>VCM CCP-Eligible Premium</span><span class="pulse-price">+25% Value</span></div>
         </div>
       </div>
-    </div>
+    </header>
 
-    <!-- TABS PANELS -->
-    <section id="panel-news" class="tab-panel active">
-      <div class="panel-header"><h2>🗞 Market Developments & News</h2></div>
-      <div class="card-grid" id="newsGrid"></div>
-    </section>
+    <!-- SECTION 1: MARKET LANDSCAPE -->
+    <main id="panel-market" class="tab-panel active">
+      <div class="panel-intro">
+        <h2>1.0 Market Sizing & Structural Demands</h2>
+        <p>Quantitative landscape metrics driving modern carbon compliance procurement workflows.</p>
+      </div>
+      <table class="data-table" id="marketTable"></table>
+    </main>
 
-    <section id="panel-guides" class="tab-panel">
-      <div class="panel-header"><h2>📚 Core Domain Frameworks</h2></div>
-      <div class="card-grid" id="guidesGrid"></div>
-    </section>
+    <!-- SECTION 2: CORE FRAMEWORKS -->
+    <main id="panel-frameworks" class="tab-panel">
+      <div class="panel-intro">
+        <h2>2.0 Interlocking Knowledge Domains</h2>
+        <p>The regulatory layers required to construct third-party verifiable emission portfolios.</p>
+      </div>
+      <div class="dense-grid" id="frameworksGrid"></div>
+    </main>
 
-    <section id="panel-certifications" class="tab-panel">
-      <div class="panel-header"><h2>🏆 Professional Skill Paths</h2></div>
-      <div class="card-grid" id="certsGrid"></div>
-    </section>
+    <!-- SECTION 3: SERVICE LINES -->
+    <main id="panel-services" class="tab-panel">
+      <div class="panel-intro">
+        <h2>3.0 Commercial Service Line Architectures</h2>
+        <p>Operational playbooks, technical deliverables, and active client parameters.</p>
+      </div>
+      <div class="dense-grid" id="servicesGrid"></div>
+    </main>
 
-    <section id="panel-startups" class="tab-panel">
-      <div class="panel-header"><h2>🚀 Climate Innovation Tracking</h2></div>
-      <div class="card-grid" id="startupsGrid"></div>
-    </section>
+    <!-- SECTION 4: CERTIFICATIONS REGISTRY -->
+    <main id="panel-certifications" class="tab-panel">
+      <div class="panel-intro">
+        <h2>4.0 Named Educational Provider Registry</h2>
+        <p>Verified, accredited training courses mapped by absolute provider expense figures.</p>
+      </div>
+      <table class="data-table" id="certsTable"></table>
+    </main>
 
-    <section id="panel-articles" class="tab-panel">
-      <div class="panel-header"><h2>✍️ Institutional Briefings</h2></div>
-      <div class="card-grid" id="articlesGrid"></div>
-    </section>
+    <!-- SECTION 5: FINANCIAL BENCHMARKS -->
+    <main id="panel-economics" class="tab-panel">
+      <div class="panel-intro">
+        <h2>5.0 Engagement Economics & Independent Day Rates</h2>
+        <p>Real compensation boundaries for independent networks and employed advisory roles.</p>
+      </div>
+      <table class="data-table" id="economicsTable"></table>
+    </main>
+
   </div>
 
   <script>
-    // ── GITHUB COMPATIBLE PATH RESOLUTION ──
-    const repoName = window.location.pathname.split('/')[1];
-    const baseUrl = window.location.hostname.includes('github.io') ? `/${repoName}/` : '/';
-
-    // Image Curation Bank mapped to climate motifs
-    const images = {
-      news: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=600&q=80',
-      guides: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=600&q=80',
-      certs: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=600&q=80',
-      startups: 'https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=600&q=80',
-      articles: 'https://images.unsplash.com/photo-1447069387593-a5de0862481e?auto=format&fit=crop&w=600&q=80'
-    };
-
     function switchTab(tabId) {
-      document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
-      document.querySelectorAll('.nav-links button').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.tab-panel').forEach(panel => panel.classList.remove('active'));
+      document.querySelectorAll('.nav-links button').forEach(btn => btn.classList.remove('active'));
       
       document.getElementById(`panel-${tabId}`).classList.add('active');
       event.target.classList.add('active');
     }
 
-    async function initPlatform() {
-      // Load real-time market estimates dynamically
-      fetchRealTimePrices();
+    // ── DATA INGESTION ENGINE ──
+    const platformData = {
+      market: [
+        { indicator: "India Steel Exports to EU", data: "~USD 4.4–4.6 Billion / Year", implication: "Large established trade flow facing strict regulatory boundaries." },
+        { indicator: "India's Share of Total CBAM Costs", data: "~18% of Projected Global Total", implication: "Disproportionate financial impact due to blast furnace manufacturing lines." },
+        { indicator: "Indian Steel Carbon Intensity", data: "2.5 t CO2 / t Steel vs EU 1.5-1.8 t", implication: "Significant carbon intensity gap creating a major financial liability." },
+        { indicator: "FY2025 Indian Steel Export Volume", data: "-24.4% YoY Decline", implication: "Signals immediate compliance distress before full financial enforcement." }
+      ],
+      frameworks: [
+        { title: "CBAM (EU Reg 2023/956)", level: "Mandatory", desc: "Requires calculation of direct embedded carbon across steel, aluminum, cement, and fertilizers. Defaults are set at the EU 90th percentile to punish slow implementers.", points: ["Scope 1 process reporting standard", "80/20 upstream data application rule", "Actual emission overrides vs defaults"] },
+        { title: "ISO 14064 Framework Series", level: "Audit Backbone", desc: "The international benchmark family governing corporate emissions mapping, verification, and validation frameworks.", points: ["14064-1: Organizational inventory rules", "14064-2: Project reduction modeling", "14064-3: Third-party verification scripts"] },
+        { title: "GHG Protocol Standards", level: "Methodological Root", desc: "The foundational baseline tool for setting corporate emission boundaries, utilized by over 92% of Fortune 500 corporations.", points: ["Scope 1 & 2 direct boundaries", "Scope 3 value chain categorization", "Product Lifecycle calculation tracking"] }
+      ],
+      services: [
+        { domain: "CBAM Advisory", fees: "€20,000 – €60,000", target: "Exporters > 50 tonnes/year", output: "Verification-ready embedded emissions reports, gap analysis frameworks, data ingestion systems." },
+        { domain: "Carbon Pricing Modeling", fees: "€15,000 – €40,000", target: "CFOs & Capital Allocation Teams", output: "Marginal Abatement Cost (MAC) curves, multi-scenario NPV liability models, carbon budget definitions." },
+        { domain: "Offset Portfolio Audits", fees: "€5,000 – €20,000", target: "Corporates Navigating Net-Zero", output: "ICVCM CCP quality benchmark alignment checks, reputational risk filters, Article 6 criteria reviews." }
+      ],
+      certs: [
+        { name: "ISO 14064 Lead Verifier Training", provider: "Bureau Veritas India", cost: "INR 25,000 – 60,000", format: "5 Days (Virtual/In-person)", value: "Accredited under CCTS framework; premier corporate legitimacy profile." },
+        { name: "ISO 14064 GHG Lead Verifier", provider: "SGS India / Global", cost: "USD 800 – 1,500", format: "32 Hours (Modular)", value: "SGS-certified global recognition benchmark tool." },
+        { name: "Product Life Cycle Standard Suite", provider: "GHG Protocol Store", cost: "USD 600", format: "Self-Paced e-Learning", value: "Direct methodological baseline required for CBAM product-level metrics." }
+      ],
+      economics: [
+        { tier: "Independent Senior Specialist", rates: "£800 – £1,500 / Day", india: "INR 70,000 – 130,000 / Day", outlook: "Commands major premiums in compliance-driven markets with technical depth." },
+        { tier: "ISO 14065 Accredited Auditor", rates: "£1,200 – £2,500 / Day", india: "INR 100,000 – 200,000 / Day", outlook: "Extremely constrained talent supply pipeline commands top-tier institutional fees." },
+        { tier: "Senior Consultant (Employed)", rates: "£75,000 – £110,000 / Year", india: "INR 1,500,000 – 3,000,000 / Year", outlook: "Standard baseline for dedicated practices within Big 4 or elite boutique networks." }
+      ]
+    };
 
-      try {
-        const [news, guides, certs, startups, articles] = await Promise.all([
-          fetch(`${baseUrl}data/news.json`).then(r => r.json()),
-          fetch(`${baseUrl}data/guides.json`).then(r => r.json()),
-          fetch(`${baseUrl}data/certifications.json`).then(r => r.json()),
-          fetch(`${baseUrl}data/startups.json`).then(r => r.json()),
-          fetch(`${baseUrl}data/articles.json`).then(r => r.json())
-        ]);
+    // ── RENDERING LAYOUT CONTROLLER ──
+    document.getElementById('marketTable').innerHTML = `
+      <tr><th>Indicator Element</th><th>Data Benchmark</th><th>Advisory Implication</th></tr>
+      ${platformData.market.map(m => `<tr><td><b>${m.indicator}</b></td><td>${m.data}</td><td>${m.implication}</td></tr>`).join('')}
+    `;
 
-        renderNews(news);
-        renderGuides(guides);
-        renderCerts(certs);
-        renderStartups(startups);
-        renderArticles(articles);
-      } catch (err) {
-        console.error("Data ingestion failure:", err);
-      }
-    }
-
-    // function fetchRealTimePrices() {
-    //   // Direct live extraction fallback from publicly available EEX settlement queries
-    //   document.getElementById('val-eu').innerText = '€74.82';
-    //   document.getElementById('val-uk').innerText = '£42.15';
-    //   document.getElementById('val-gci').innerText = '$26.40';
-    // }
-  async function fetchRealTimePrices() {
-    try {
-      // Dynamically query your auto-generated carbon price database file
-      const response = await fetch(`${baseUrl}data/carbon_prices.json`);
-      if (!response.ok) throw new Error("Price file missing");
-      
-      const pricing = await response.json();
-      
-      // Inject the fetched variables straight into the DOM grid layout
-      document.getElementById('val-eu').innerText = `€${pricing.eu_ets_euro}`;
-      document.getElementById('val-uk').innerText = `£${pricing.uk_ets_gbp}`;
-      document.getElementById('val-gci').innerText = `$${pricing.global_carbon_index_usd}`;
-    } catch (err) {
-      console.warn("Real-time fetch fallback: Using default pricing index data.", err);
-      // Secure UI fallback to ensure the site looks complete if the file hasn't been generated yet
-      document.getElementById('val-eu').innerText = '€74.82';
-      document.getElementById('val-uk').innerText = '£42.15';
-      document.getElementById('val-gci').innerText = '$26.40';
-    }
-  }
-    function renderNews(data) {
-      document.getElementById('newsGrid').innerHTML = data.map(n => `
-        <div class="content-card">
-          <div class="card-image" style="background-image: url('${images.news}')"></div>
-          <div class="card-body">
-            <span class="card-tag">${n.tag}</span>
-            <div class="card-title">${n.title}</div>
-            <div class="card-text">${n.summary}</div>
-            <div class="card-footer"><span>${n.source}</span><span>${n.date}</span></div>
-          </div>
+    document.getElementById('frameworksGrid').innerHTML = platformData.frameworks.map(f => `
+      <div class="editorial-card">
+        <div>
+          <span class="card-meta">${f.level}</span>
+          <h3 class="card-head">${f.title}</h3>
+          <p class="card-body-text">${f.desc}</p>
+          <ul class="bullet-list">${f.points.map(p => `<li>${p}</li>`).join('')}</ul>
         </div>
-      `).join('');
-    }
+      </div>
+    `).join('');
 
-    function renderGuides(data) {
-      document.getElementById('guidesGrid').innerHTML = data.map(g => `
-        <div class="content-card">
-          <div class="card-image" style="background-image: url('${images.guides}')"></div>
-          <div class="card-body">
-            <span class="card-tag">${g.tag}</span>
-            <div class="card-title">${g.icon} ${g.title}</div>
-            <div class="card-text">${g.summary}</div>
-            <div style="font-size:0.8rem; font-weight:600; margin-bottom:0.5rem;">Core Parameters:</div>
-            <ul style="font-size:0.8rem; color:var(--muted); margin-left:1rem; margin-bottom:1rem;">
-              ${g.keyPoints.map(p => `<li>${p.substring(0,65)}...</li>`).join('')}
-            </ul>
-            <div class="card-footer"><span>Difficulty: ${g.level}</span></div>
-          </div>
+    document.getElementById('servicesGrid').innerHTML = platformData.services.map(s => `
+      <div class="editorial-card">
+        <div>
+          <span class="card-meta">Fee Horizon: ${s.fees}</span>
+          <h3 class="card-head">${s.domain}</h3>
+          <p class="card-body-text"><b>Target Client Focus:</b> ${s.target}</p>
+          <p class="card-body-text"><b>Core Deliverable:</b> ${s.output}</p>
         </div>
-      `).join('');
-    }
+      </div>
+    `).join('');
 
-    function renderCerts(data) {
-      document.getElementById('certsGrid').innerHTML = data.map(c => `
-        <div class="content-card">
-          <div class="card-image" style="background-image: url('${images.certs}')"></div>
-          <div class="card-body">
-            <span class="card-tag">${c.tags ? c.tags[0] : 'Standard'}</span>
-            <div class="card-title">${c.name}</div>
-            <div class="card-text">${c.description}</div>
-            <div class="card-footer"><span style="color:var(--accent); font-weight:600">${c.cost}</span><span>🕒 ${c.duration}</span></div>
-          </div>
-        </div>
-      `).join('');
-    }
+    document.getElementById('certsTable').innerHTML = `
+      <tr><th>Credential Program</th><th>Named Provider</th><th>Approx Expense</th><th>Delivery Framework</th></tr>
+      ${platformData.certs.map(c => `<tr><td><b>${c.name}</b></td><td>${c.provider}</td><td><span style="color:var(--accent);font-weight:700">${c.cost}</span></td><td>${c.format}<br><small style="color:var(--muted)">${c.value}</small></td></tr>`).join('')}
+    `;
 
-    function renderStartups(data) {
-      document.getElementById('startupsGrid').innerHTML = data.map(s => `
-        <div class="content-card">
-          <div class="card-image" style="background-image: url('${images.startups}')"></div>
-          <div class="card-body">
-            <span class="card-tag">${s.stage}</span>
-            <div class="card-title">${s.name} (${s.country})</div>
-            <div class="card-text">${s.description}</div>
-            <div class="card-footer"><span>Funding Tracker: <b>${s.raise}</b></span><span>Est. ${s.year}</span></div>
-          </div>
-        </div>
-      `).join('');
-    }
-
-    function renderArticles(data) {
-      document.getElementById('articlesGrid').innerHTML = data.map(a => `
-        <div class="content-card">
-          <div class="card-image" style="background-image: url('${images.articles}')"></div>
-          <div class="card-body">
-            <span class="card-tag">${a.tags ? a.tags[0] : 'Analysis'}</span>
-            <div class="card-title">${a.title}</div>
-            <div class="card-text">${a.summary}</div>
-            <div class="card-footer"><span>By ${a.author}</span><span>📖 ${a.readTime}</span></div>
-          </div>
-        </div>
-      `).join('');
-    }
-
-    window.onload = initPlatform;
+    document.getElementById('economicsTable').innerHTML = `
+      <tr><th>Professional Tier</th><th>Global Day Rate / Salary</th><th>India Equivalent Niche</th><th>Market Operational Context</th></tr>
+      ${platformData.economics.map(e => `<tr><td><b>${e.tier}</b></td><td>${e.rates}</td><td>${e.india}</td><td>${e.outlook}</td></tr>`).join('')}
+    `;
   </script>
 </body>
 </html>
