@@ -3,24 +3,24 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CarbonCompass — Institutional Compliance Matrix & GRC Blueprint</title>
+  <title>CarbonCompass — Institutional Compliance Matrix</title>
   
   <!-- Premium Editorial Typography -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght=0,600;0,700;1,400&display=swap" rel="stylesheet" />
   
   <style>
     :root {
-      --bg: #ffffff;            /* Pure editorial white background */
-      --surface: #fafafa;       /* Subtle off-white for dynamic content tables */
-      --sidebar-bg: #111113;    /* Deep premium charcoal sidebar */
-      --sidebar-text: #e4e4e7;  /* Soft light gray text for menu labels */
-      --border: #18181b;        /* Authoritative high-contrast borders */
-      --border-muted: #e4e4e7;  /* Soft table divider gray */
-      --text: #09090b;          /* High-density black text for readability */
-      --muted: #52525b;         /* Professional mid-tone body slate */
-      --accent: #0f766e;        /* Institutional deep corporate teal */
-      --accent-light: #f0fdfa;  /* Muted teal highlighting tint */
+      --bg: #ffffff;            /* Pure white background */
+      --surface: #fafafa;       /* Subtle light gray for data rows */
+      --sidebar-bg: #0f1011;    /* Clean, stark black sidebar */
+      --sidebar-text: #e4e4e7;  /* High-contrast light text for sidebar menu */
+      --border: #111111;        /* Thick, deep authoritative structural layout lines */
+      --border-muted: #e5e5e7;  /* Clean light divider line */
+      --text: #000000;          /* Crisp high-density black text for maximum reading */
+      --muted: #555555;         /* Professional slate gray for descriptions */
+      --accent: #222222;        /* Stark, minimalist deep charcoal selection tint */
+      --accent-light: #f4f4f5;  /* Neutral light tint for tag highlights */
     }
 
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -46,7 +46,7 @@
       width: 100%; font-family: inherit; font-size: 0.85rem; padding: 0.6rem 0.85rem;
       border: 1px solid #3f3f46; background: #18181b; color: #ffffff; border-radius: 4px;
     }
-    .sidebar-search:focus { outline: none; border-color: var(--accent); }
+    .sidebar-search:focus { outline: none; border-color: #ffffff; }
 
     /* Sidebar Navigation Links */
     .sidebar-menu { list-style: none; padding: 1.5rem 1rem; display: flex; flex-direction: column; gap: 0.35rem; }
@@ -71,7 +71,7 @@
     }
     .ribbon-item { display: flex; gap: 0.5rem; }
     .ribbon-label { font-weight: 700; text-transform: uppercase; color: var(--muted); letter-spacing: 0.02em; }
-    .ribbon-value { font-weight: 700; color: var(--accent); }
+    .ribbon-value { font-weight: 700; color: var(--text); }
 
     .content-viewport { padding: 3rem 2.5rem; max-width: 1100px; width: 100%; margin: 0 auto; }
     
@@ -79,18 +79,18 @@
     .view-header h2 { font-family: 'Playfair Display', serif; font-size: 2.2rem; font-weight: 700; color: var(--text); }
     .view-header p { color: var(--muted); font-size: 1rem; margin-top: 0.35rem; }
 
-    /* ── SUB-NAV INTERACTIVE PILLS ── */
+    /* ── SUB-NAV INTERACTIVE TOGGLES ── */
     .sub-nav { display: flex; gap: 0.5rem; margin-bottom: 2rem; border-bottom: 1px solid var(--border-muted); padding-bottom: 1rem; }
     .sub-nav button {
       background: var(--surface); border: 1px solid var(--border-muted); color: var(--muted);
       padding: 0.5rem 1.25rem; font-family: inherit; font-size: 0.85rem; font-weight: 600;
-      cursor: pointer; border-radius: 20px; transition: all 0.2s;
+      cursor: pointer; border-radius: 4px; transition: all 0.2s;
     }
     .sub-nav button.active {
       background: var(--border); color: var(--bg); border-color: var(--border);
     }
 
-    /* ── DATA PACK TABLE STYLING ── */
+    /* ── DATA STYLING ── */
     .table-container { width: 100%; border: 1px solid var(--border); background: var(--bg); }
     .data-table { width: 100%; border-collapse: collapse; text-align: left; font-size: 0.9rem; }
     .data-table th { background: var(--border); color: var(--bg); padding: 0.85rem 1.25rem; font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; }
@@ -99,7 +99,7 @@
     .data-table tr:hover td { background: var(--surface); }
 
     .text-bold { font-weight: 700; color: var(--text); }
-    .text-tag { display: inline-block; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; background: var(--accent-light); color: var(--accent); padding: 0.15rem 0.5rem; border: 1px solid rgba(15,118,110,0.2); }
+    .text-tag { display: inline-block; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; background: var(--accent-light); color: var(--text); padding: 0.15rem 0.5rem; border: 1px solid var(--border-muted); }
 
     @media (max-width: 992px) {
       body { flex-direction: column; overflow: auto; }
@@ -116,7 +116,7 @@
   <aside>
     <div class="sidebar-brand">
       <h1>CarbonCompass</h1>
-      <p>Institutional Knowledge GRC Hub</p>
+      <p>Institutional Knowledge Hub</p>
     </div>
     
     <div class="search-box-wrapper">
@@ -152,10 +152,10 @@
         <p id="view-desc">Quantitative baseline metrics driving regional climate compliance asset pricing.</p>
       </div>
 
-      <!-- Segment Selection Sub-Navigation Toggle Button Layer -->
+      <!-- Segment Selection Sub-Navigation Toggle -->
       <div class="sub-nav">
         <button id="btn-dataset" class="active" onclick="switchSubView('dataset')">📊 Baseline Datasets</button>
-        <button id="btn-blueprint" onclick="switchSubView('blueprint')">📋 Automated GRC Blueprint Insights</button>
+        <button id="btn-blueprint" onclick="switchSubView('blueprint')">📋 Blueprint Perspectives</button>
       </div>
 
       <!-- Main Data Table Node -->
@@ -170,7 +170,6 @@
 
   <!-- DATA MATRIX CONTROL SYSTEM -->
   <script>
-    // Unified Data Vault containing your exact market parameters alongside explicit GRC alignment trends
     const dataVault = {
       market: {
         title: "Market Sizing & Structural Demands",
@@ -187,8 +186,8 @@
         blueprint: {
           headers: ["Strategic Shift", "Operational Focus", "System Imperative"],
           items: [
-            { c1: "Static Documentation Obsolescence", c2: "Transitioning away from slow annual reports", c3: "Modern compliance requires active data pipelines mapping transactional carbon variables dynamically." },
-            { c1: "Dynamic Assurance Modeling", c2: "Real-time carbon evidence systems", c3: "Exporters must embed programmatic logging to clear customs friction instantly." }
+            { c1: "Static Documentation Trends", c2: "Moving away from traditional annual retroactive summaries.", c3: "Requires direct ongoing tracking pipelines mapping carbon variables across active supply lines." },
+            { c1: "Assurance Modeling Requirements", c2: "Development of verifiable carbon logging structures.", c3: "Exporters must provide reliable, structured evidence chains to handle international trade checkpoints cleanly." }
           ]
         }
       },
@@ -199,15 +198,15 @@
           headers: ["Regulatory Framework", "Compliance Class", "Core Operational Focus"],
           items: [
             { c1: "CBAM (EU Regulation 2023/956)", c2: "Mandatory Transnational", c3: "Requires complete documentation of direct embedded carbon across steel, aluminum, cement, and fertilizers. Uses harsh default baseline penalties for non-compliance." },
-            { c1: "ISO 14064 Framework Series", c2: "Global Audit Standard", c3: "Standard 14064-1 outlines organization greenhouse gas boundaries; 14064-2 controls project-level reductions; 14064-3 builds verification scripts." },
+            { c1: "ISO 14064 Framework Series", c2: "Global Audit Standard", c3: "Standard 14064-1 outlines organization greenhouse gas boundaries; 14064-2 controls project-level reductions; 14064-3 builds verification verification scripts." },
             { c1: "GHG Protocol Standards", c2: "Methodological Baseline", c3: "The universal accounting standard mapping out Scope 1 (Direct), Scope 2 (Purchased Energy), and Scope 3 (Value Chain Categorization) carbon definitions." }
           ]
         },
         blueprint: {
-          headers: ["Framework Link", "Automated Engineering Task", "Verifiable Outcome"],
+          headers: ["Framework Integration", "Core Technical Objective", "Intended Outcome"],
           items: [
-            { c1: "ISO Governance Mapping", c2: "Transition structural rules to programmatic controls", c3: "Enables continuous audit configurations rather than manual retrospective checking runs." },
-            { c1: "Framework Interlocking Architecture", c2: "Aligning NIST style controls with ISO validation patterns", c3: "Creates unified logging layers usable across multiple regional verification bodies simultaneously." }
+            { c1: "ISO Methodology Mapping", c2: "Translating architectural rules into structured validation criteria.", c3: "Allows regular verification exercises to run consistently without needing manual, unstructured re-evaluations." },
+            { c1: "Framework Interlocking Architecture", c2: "Aligning reporting structures with standard tracking parameters.", c3: "Establishes unified validation records that satisfy intersecting regional reporting requirements simultaneously." }
           ]
         }
       },
@@ -223,10 +222,10 @@
           ]
         },
         blueprint: {
-          headers: ["Advisory Adaptation", "Old Methodology", "Engineered GRC Paradigm"],
+          headers: ["Advisory Adaptation", "Traditional Form", "Evolved Framework Strategy"],
           items: [
-            { c1: "Continuous Assurance Retainers", c2: "One-off template advisory consulting projects", c3: "Deploying automated data extraction tools to monitor compliance continuously." },
-            { c1: "Carbon Risk API Provisioning", c2: "Delivering flat spreadsheet calculations", c3: "Licensing programmatic software layers that calculate financial risk instantly during logistics routing." }
+            { c1: "Continuous Advisory Retainers", c2: "Standard episodic advisory engagements.", c3: "Setting up structured tracking systems to capture and evaluate operational data points continuously." },
+            { c1: "Carbon Risk Tracking Provisioning", c2: "Isolating calculations to static document snapshots.", c3: "Providing systemic validation tools that calculate operational risk variables instantly during logistics routing." }
           ]
         }
       },
@@ -242,10 +241,10 @@
           ]
         },
         blueprint: {
-          headers: ["Skill Focus Transition", "Legacy Assessment Target", "Emerging Requirement Profile"],
+          headers: ["Competency Transitions", "Historical Skill Focus", "Evolving Requirement Profile"],
           items: [
-            { c1: "Automated Evidence Collection", c2: "Reviewing paper receipts and logbooks manually", c3: "Auditing direct system database queries and API data ingestion setups." },
-            { c1: "Multi-Jurisdictional GRC Engineering", c2: "Studying local regional frameworks in isolation", c3: "Structuring scalable core architectures to fulfill intersecting global compliance models." }
+            { c1: "Systemic Evidence Verification", c2: "Reviewing physical logs and isolated record sheets manually.", c3: "Evaluating core data pipelines and structured verification environments." },
+            { c1: "Cross-Border Reporting Architectures", c2: "Analyzing regional tracking setups in isolation.", c3: "Structuring centralized frameworks that fulfill overlapping international standards smoothly." }
           ]
         }
       },
@@ -261,9 +260,9 @@
           ]
         },
         blueprint: {
-          headers: ["Value Multiplier", "Standard Profile Value", "Engineered Specialist Premium"],
+          headers: ["Value Multiplier", "Baseline Capability Metric", "Specialist Implementation Target"],
           items: [
-            { c1: "Programmatic Integration Skills", c2: "Standard day rates for pure template drafting work", c3: "Commands a premium for designing automated validation structures." }
+            { c1: "Integration Strategy Expertise", c2: "Standard assessment mapping routines.", c3: "Direct design and orchestration of foundational tracking architectures." }
           ]
         }
       }
@@ -275,11 +274,9 @@
     function switchCategory(catKey, elementBtn) {
       activeCategory = catKey;
       
-      // Update sidebar nav highlighting styling
       document.querySelectorAll('.sidebar-menu button').forEach(btn => btn.classList.remove('active'));
       elementBtn.classList.add('active');
 
-      // Update text titles
       document.getElementById('view-title').innerText = dataVault[catKey].title;
       document.getElementById('view-desc').innerText = dataVault[catKey].desc;
 
@@ -289,7 +286,6 @@
     function switchSubView(subKey) {
       activeSubView = subKey;
       
-      // Handle inner menu button formatting shifts
       document.getElementById('btn-dataset').classList.remove('active');
       document.getElementById('btn-blueprint').classList.remove('active');
       document.getElementById(`btn-${subKey}`).classList.add('active');
@@ -301,11 +297,9 @@
       const activeDataPool = dataVault[activeCategory][activeSubView];
       const searchString = document.getElementById('matrixSearch').value.toLowerCase();
       
-      // Render Table Headers
       const headTarget = document.getElementById('table-head-target');
       headTarget.innerHTML = `<tr>${activeDataPool.headers.map(h => `<th>${h}</th>`).join('')}</tr>`;
 
-      // Filter Rows
       const filteredItems = activeDataPool.items.filter(item => 
         item.c1.toLowerCase().includes(searchString) || 
         item.c2.toLowerCase().includes(searchString) || 
@@ -318,7 +312,6 @@
         return;
       }
 
-      // Output to DOM
       bodyTarget.innerHTML = filteredItems.map(item => `
         <tr>
           <td class="text-bold">${item.c1}</td>
@@ -328,12 +321,10 @@
       `).join('');
     }
 
-    // Interactive Sidebar Query Filter Counter Engine
     function runCounterEngine() {
       const searchString = document.getElementById('matrixSearch').value.toLowerCase();
       
       Object.keys(dataVault).forEach(key => {
-        // Calculate counter matching metric based on the currently active sub-view toggled selection
         const count = dataVault[key][activeSubView].items.filter(item => 
           item.c1.toLowerCase().includes(searchString) || 
           item.c2.toLowerCase().includes(searchString) || 
@@ -349,7 +340,6 @@
       runCounterEngine();
     }
 
-    // App Initialization Hook
     window.addEventListener('DOMContentLoaded', () => {
       renderCurrentTable();
       runCounterEngine();
