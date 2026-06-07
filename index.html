@@ -38,14 +38,37 @@
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
 
+
     body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Instrument Sans', sans-serif;
+      font-size: 15px;
+      line-height: 1.7; /* Increased for better structural reading readability */
+      letter-spacing: -0.01em;
+      -webkit-font-smoothing: antialiased; /* Sharper text rendering */
+      min-height: 100vh;
+    }
+
+    /* Ensure headings maintain stark, high-contrast separation */
+    h1, h2, h3, .nav-title, .guide-title, .startup-name, .article-title {
+      color: var(--accent2) !important;
+    }
+
+    /* Fix text contrast inside cards */
+    .news-summary, .guide-summary, .cert-desc, .startup-desc, .article-summary {
+      color: var(--muted);
+      font-size: 0.88rem;
+      line-height: 1.6;
+    }
+    /* body {
       background: var(--bg);
       color: var(--text);
       font-family: 'Instrument Sans', sans-serif;
       font-size: 15px;
       line-height: 1.6;
       min-height: 100vh;
-    }
+    } */
 
     /* ── NAV ── */
     nav {
