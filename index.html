@@ -73,24 +73,41 @@
     /* ── NAV ── */
     nav {
       position: sticky; top: 0; z-index: 100;
+      background: rgba(9, 13, 16, 0.85); /* Matches new deep slate bg */
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 2rem;
+      display: flex; align-items: center; justify-content: space-between;
+      height: 65px;
+    }
+    /* nav {
+      position: sticky; top: 0; z-index: 100;
       background: rgba(11,26,18,0.92);
       backdrop-filter: blur(12px);
       border-bottom: 1px solid var(--border);
       padding: 0 2rem;
       display: flex; align-items: center; justify-content: space-between;
       height: 60px;
-    }
+    } */
     .nav-brand {
       display: flex; align-items: center; gap: 0.6rem;
       text-decoration: none;
     }
+
     .nav-logo {
+      width: 32px; height: 32px;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      display: flex; align-items: center; justify-content: center;
+    }
+    /* .nav-logo {
       width: 32px; height: 32px;
       background: var(--accent);
       border-radius: 8px;
       display: flex; align-items: center; justify-content: center;
       font-size: 18px;
-    }
+    } */
     .nav-title {
       font-family: 'Fraunces', serif;
       font-weight: 800;
@@ -424,14 +441,32 @@
     .update-banner span { color: var(--accent); }
 
     /* ── SEARCH ── */
+
     .search-bar {
+      background: var(--surface); 
+      border: 1px solid var(--border);
+      border-radius: 6px; 
+      padding: 0.5rem 1rem;
+      color: var(--text); 
+      font-size: 0.85rem; 
+      width: 240px; 
+      outline: none;
+      transition: all 0.2s ease;
+    }
+
+    .search-bar:focus { 
+      border-color: var(--sky); 
+      background: var(--surface2);
+      box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.15);
+    }
+    /* .search-bar {
       background: var(--surface); border: 1px solid var(--border);
       border-radius: 8px; padding: 0.5rem 1rem;
       color: var(--text); font-family: 'Instrument Sans', sans-serif;
       font-size: 0.85rem; width: 220px; outline: none;
       transition: border-color 0.2s;
     }
-    .search-bar:focus { border-color: var(--accent); }
+    .search-bar:focus { border-color: var(--accent); } */
     .search-bar::placeholder { color: var(--muted); }
 
     /* Animations */
