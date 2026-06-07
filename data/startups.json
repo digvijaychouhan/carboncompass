@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "name": "Varaha",
+    "country": "🇮🇳 India",
+    "focus": "Agricultural carbon credits",
+    "stage": "Series A",
+    "raise": "$8.7M",
+    "year": 2022,
+    "url": "https://varaha.earth",
+    "description": "Generates carbon credits from Indian smallholder farmers through soil carbon and agroforestry projects."
+  },
+  {
+    "id": 2,
+    "name": "Climes",
+    "country": "🇮🇳 India",
+    "focus": "Consumer carbon offsetting",
+    "stage": "Seed",
+    "raise": "$2M",
+    "year": 2021,
+    "url": "https://climes.in",
+    "description": "Climate fintech enabling individuals and SMEs to offset carbon footprint via curated Indian projects."
+  },
+  {
+    "id": 3,
+    "name": "Terrawatch",
+    "country": "🇬🇧 UK",
+    "focus": "MRV & carbon monitoring",
+    "stage": "Series A",
+    "raise": "$12M",
+    "year": 2023,
+    "url": "#",
+    "description": "Satellite + AI platform for monitoring, reporting and verification of nature-based carbon projects."
+  },
+  {
+    "id": 4,
+    "name": "Rubicon Carbon",
+    "country": "🇺🇸 USA",
+    "focus": "Carbon credit investment",
+    "stage": "Growth",
+    "raise": "$100M+",
+    "year": 2022,
+    "url": "https://rubiconcarbon.com",
+    "description": "Institutional-grade carbon credit portfolio management and high-quality credit sourcing."
+  },
+  {
+    "id": 5,
+    "name": "CarbonMark",
+    "country": "🇮🇳 India",
+    "focus": "CCTS compliance tech",
+    "stage": "Pre-Seed",
+    "raise": "Stealth",
+    "year": 2025,
+    "url": "#",
+    "description": "Building software for Indian industries to manage compliance under the Carbon Credit Trading Scheme."
+  }
+]

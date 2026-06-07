@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "Starting Out in Climate Consultancy — A Practical Roadmap",
+    "date": "2026-06-07",
+    "author": "CarbonCompass",
+    "tags": ["Getting Started", "Career"],
+    "readTime": "8 min",
+    "summary": "A step-by-step guide for professionals transitioning into climate consulting — what to learn, which certifications matter, and how to position yourself.",
+    "content": "Climate consultancy is one of the fastest-growing professional fields. Whether you are coming from finance, engineering, law or operations, your existing skills are transferable. The entry points vary: some start with corporate GHG inventories, others with ESG reporting, and some with carbon project development. The key is to pick a lane early and build depth before breadth. Start with GHG Protocol fundamentals — this is the lingua franca of the field. Then layer on the regulatory context relevant to your target clients: BRSR for Indian listed companies, CBAM for export-oriented manufacturers, ISO 14064 for those needing third-party verification. Build a portfolio of at least 2-3 real projects (even pro-bono) before charging premium fees."
+  },
+  {
+    "id": 2,
+    "title": "CBAM for Indian Exporters — What You Must Know",
+    "date": "2026-06-05",
+    "author": "CarbonCompass",
+    "tags": ["CBAM", "India", "Export"],
+    "readTime": "6 min",
+    "summary": "Indian exporters of steel, aluminium and cement to the EU must now calculate and report embedded emissions. Here is what that means operationally.",
+    "content": "India is among the top affected countries under CBAM due to significant exports of steel and aluminium to the EU. From January 2026, importers in the EU must purchase CBAM certificates for every tonne of CO2 embedded in covered goods. As an Indian exporter, your EU buyer will ask you for embedded emissions data in a specific format. This requires: (1) mapping your production process, (2) identifying all direct and indirect emission sources, (3) calculating specific embedded emissions per tonne of product using the CBAM methodology (not GHG Protocol — there are differences), and (4) submitting data via the CBAM registry through your EU importer. Early movers who can provide this data reliably will retain EU customers; those who cannot will lose contracts."
+  }
+]

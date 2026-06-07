@@ -1,0 +1,114 @@
+[
+  {
+    "id": "cbam",
+    "title": "CBAM — Carbon Border Adjustment Mechanism",
+    "icon": "🌍",
+    "tag": "EU Regulation",
+    "level": "Intermediate",
+    "summary": "EU's carbon pricing tool for imported goods. Prevents carbon leakage by putting a carbon price on imports from outside the EU.",
+    "keyPoints": [
+      "Applies to: Steel, Cement, Aluminium, Fertilizers, Electricity, Hydrogen",
+      "Transitional phase: Oct 2023 – Dec 2025 (reporting only)",
+      "Full implementation: Jan 2026 (CBAM certificates required)",
+      "Importers must declare embedded emissions and surrender CBAM certificates",
+      "Price linked to EU ETS auction price"
+    ],
+    "resources": [
+      { "label": "EU CBAM Official Page", "url": "https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism_en" },
+      { "label": "CBAM Registry", "url": "https://cbam.ec.europa.eu" }
+    ]
+  },
+  {
+    "id": "ghg",
+    "title": "GHG Protocol — Greenhouse Gas Accounting",
+    "icon": "♻️",
+    "tag": "Framework",
+    "level": "Beginner",
+    "summary": "The world's most widely used greenhouse gas accounting standard for companies and cities.",
+    "keyPoints": [
+      "Scope 1: Direct emissions from owned/controlled sources",
+      "Scope 2: Indirect emissions from purchased energy",
+      "Scope 3: All other indirect emissions in value chain (15 categories)",
+      "Corporate Standard, Project Protocol, and Scope 3 Standard are key documents",
+      "Basis for most national and corporate reporting frameworks"
+    ],
+    "resources": [
+      { "label": "GHG Protocol Website", "url": "https://ghgprotocol.org" },
+      { "label": "Scope 3 Calculation Guidance", "url": "https://ghgprotocol.org/scope-3-technical-calculation-guidance" }
+    ]
+  },
+  {
+    "id": "iso14064",
+    "title": "ISO 14064 — GHG Verification Standard",
+    "icon": "📋",
+    "tag": "ISO Standard",
+    "level": "Intermediate",
+    "summary": "International standard for quantification, monitoring, reporting and verification of GHG emissions.",
+    "keyPoints": [
+      "ISO 14064-1: Org-level GHG inventory specification",
+      "ISO 14064-2: Project-level GHG emission reductions",
+      "ISO 14064-3: Validation and verification of GHG statements",
+      "ISO 14065: Requirements for GHG validation/verification bodies",
+      "Used for third-party assurance of corporate GHG reports"
+    ],
+    "resources": [
+      { "label": "ISO 14064-1:2018", "url": "https://www.iso.org/standard/66453.html" }
+    ]
+  },
+  {
+    "id": "brsr",
+    "title": "BRSR — Business Responsibility & Sustainability Reporting",
+    "icon": "📊",
+    "tag": "India Regulation",
+    "level": "Beginner",
+    "summary": "SEBI-mandated ESG disclosure framework for listed Indian companies. Replaced the earlier BRR format.",
+    "keyPoints": [
+      "Mandatory for top 1000 listed companies by market cap",
+      "BRSR Core: 49 KPIs with 3rd party assurance for top 150 companies",
+      "Covers 9 National Guidelines on Responsible Business Conduct (NGRBC)",
+      "Sections: General Disclosures, Management & Process Disclosures, Principle-wise Performance",
+      "Aligns with GRI, SASB and TCFD frameworks"
+    ],
+    "resources": [
+      { "label": "SEBI BRSR Circular", "url": "https://www.sebi.gov.in/legal/circulars/may-2021/business-responsibility-and-sustainability-reporting-by-listed-entities_50096.html" }
+    ]
+  },
+  {
+    "id": "carbonmarkets",
+    "title": "Carbon Credits & Carbon Markets",
+    "icon": "💹",
+    "tag": "Markets",
+    "level": "Beginner",
+    "summary": "Understanding compliance and voluntary carbon markets, credit types, and trading mechanisms.",
+    "keyPoints": [
+      "Compliance markets: EU ETS, UK ETS, India CCTS, California Cap-and-Trade",
+      "Voluntary markets: Verra (VCS), Gold Standard, American Carbon Registry",
+      "1 carbon credit = 1 tonne CO2 equivalent avoided or removed",
+      "Credit types: Avoidance, Reduction, Removal (highest quality)",
+      "Article 6 of Paris Agreement governs international carbon trading"
+    ],
+    "resources": [
+      { "label": "Verra Registry", "url": "https://verra.org" },
+      { "label": "Gold Standard", "url": "https://www.goldstandard.org" }
+    ]
+  },
+  {
+    "id": "netzero",
+    "title": "Net Zero & Science Based Targets (SBTi)",
+    "icon": "🎯",
+    "tag": "Framework",
+    "level": "Intermediate",
+    "summary": "Corporate net-zero strategies aligned with 1.5°C pathways and SBTi validation.",
+    "keyPoints": [
+      "SBTi Net-Zero Standard requires 90-95% absolute emission reduction",
+      "Remaining emissions must be neutralized with permanent removals",
+      "Near-term targets: 5-10 year; Long-term: by 2050",
+      "Sector-specific pathways: Steel, Cement, Aviation, Finance",
+      "Do not confuse with carbon neutrality (offsets-based) claims"
+    ],
+    "resources": [
+      { "label": "SBTi Website", "url": "https://sciencebasedtargets.org" },
+      { "label": "SBTi Corporate Net-Zero Standard", "url": "https://sciencebasedtargets.org/net-zero" }
+    ]
+  }
+]
