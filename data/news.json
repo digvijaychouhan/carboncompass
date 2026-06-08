@@ -1,47 +1,92 @@
 [
   {
     "id": 1,
-    "title": "EU Carbon Border Adjustment Mechanism enters transitional phase",
+    "title": "DeBriefed 5 June 2026: UK eyes 2040 emissions cut | US ‘dismantling’ oceans research | China’s solar slump",
     "source": "Carbon Brief",
-    "date": "2026-06-07",
-    "url": "#",
-    "tag": "CBAM",
-    "summary": "CBAM reporting obligations are now active for importers of steel, cement, aluminium, fertilizers, electricity and hydrogen into the EU."
+    "date": "2026-06-05",
+    "url": "https://www.carbonbrief.org/debriefed-5-june-2026-uk-eyes-2040-emissions-cut-us-dismantling-oceans-research-chinas-solar-slump/",
+    "tag": "Energy",
+    "summary": "Welcome to Carbon Brief’s DeBriefed. An essential guide to the week&#8217;s key developments relating to climate...\nThe post DeBriefed 5 June 2026: UK eyes 2040 emissions cut | US ‘dismantling’ oceans research | China’s solar slump appeared first on Carbon Brief."
   },
   {
     "id": 2,
-    "title": "India's carbon credit market framework — CCTS update",
-    "source": "MoEFCC",
-    "date": "2026-06-06",
-    "url": "#",
-    "tag": "India Policy",
-    "summary": "The Carbon Credit Trading Scheme (CCTS) rules have been notified. Obligated entities under PAT scheme are the first cohort."
+    "title": "Chart: Why China’s solar boom is slowing down",
+    "source": "Carbon Brief",
+    "date": "2026-06-05",
+    "url": "https://www.carbonbrief.org/chart-why-chinas-solar-boom-is-slowing-down/",
+    "tag": "Energy",
+    "summary": "Solar power has been a major element of China’s renewables buildout since the mid-2010s.&#160; The...\nThe post Chart: Why China&#8217;s solar boom is slowing down appeared first on Carbon Brief."
   },
   {
     "id": 3,
-    "title": "Voluntary carbon market hits $2B in 2026 Q1 transactions",
-    "source": "Bloomberg Green",
+    "title": "Offshore oil and gas expansion threatens key marine ecosystems, report warns",
+    "source": "Climate Home News",
     "date": "2026-06-05",
-    "url": "#",
-    "tag": "Carbon Markets",
-    "summary": "Nature-based solutions and renewable energy credits dominate trading volumes as corporates accelerate net-zero commitments."
+    "url": "https://www.climatechangenews.com/2026/06/05/planned-offshore-oil-and-gas-expansion-threatens-key-marine-ecosystems-report-fossil-fuels/",
+    "tag": "Climate",
+    "summary": "Sea life in countries like Kenya is under threat from planned new oil and gas production, environmentalists analysis has found\nThe post Offshore oil and gas expansion threatens key marine ecosystems, report warns appeared first on Climate Home News."
   },
   {
     "id": 4,
-    "title": "SEBI tightens BRSR Core disclosure requirements for top 500 listed entities",
-    "source": "SEBI Circular",
-    "date": "2026-06-04",
-    "url": "#",
-    "tag": "BRSR",
-    "summary": "Reasonable assurance on BRSR Core is now mandatory for top 150 companies by market cap for FY 2025-26."
+    "title": "The scramble to stockpile critical minerals could drive up energy transition costs",
+    "source": "Climate Home News",
+    "date": "2026-06-05",
+    "url": "https://www.climatechangenews.com/2026/06/05/the-scramble-to-stockpile-critical-minerals-could-drive-up-energy-transition-costs/",
+    "tag": "Climate",
+    "summary": "Researchers warn that uncoordinated stockpiling could push up prices of minerals needed for clean energy technologies and delay their roll out\nThe post The scramble to stockpile critical minerals could drive up energy transition costs appeared first on Climate Home News."
   },
   {
     "id": 5,
-    "title": "ISO 14068-1 Carbon Neutrality standard — adoption update",
-    "source": "ISO",
+    "title": "What to expect from the Bonn climate talks",
+    "source": "Climate Home News",
+    "date": "2026-06-04",
+    "url": "https://www.climatechangenews.com/2026/06/04/what-to-expect-from-the-bonn-climate-talks/",
+    "tag": "Climate",
+    "summary": "Climate Home News will be on the ground at the SB64 June Climate Meetings  - here's what we're watching out for\nThe post What to expect from the Bonn climate talks appeared first on Climate Home News."
+  },
+  {
+    "id": 6,
+    "title": "China’s carbon emissions rise again as more clean power is wasted",
+    "source": "Climate Home News",
+    "date": "2026-06-04",
+    "url": "https://www.climatechangenews.com/2026/06/04/chinas-carbon-emissions-rise-again-as-more-clean-power-is-wasted/",
+    "tag": "Energy",
+    "summary": "The economic powerhouse burned more coal and gas in the first quarter of 2026, despite record wind and solar build-out\nThe post China&#8217;s carbon emissions rise again as more clean power is wasted appeared first on Climate Home News."
+  },
+  {
+    "id": 7,
+    "title": "Analysis: China’s CO2 climbs 2% in early 2026 due to ‘wasted’ wind and solar",
+    "source": "Carbon Brief",
     "date": "2026-06-03",
-    "url": "#",
-    "tag": "Standards",
-    "summary": "ISO 14068-1:2023 is gaining traction as the preferred framework for carbon neutrality claims, complementing ISO 14064 series."
+    "url": "https://www.carbonbrief.org/analysis-chinas-co2-climbs-2-in-early-2026-due-to-wasted-wind-and-solar/",
+    "tag": "Energy",
+    "summary": "China’s carbon dioxide (CO2) emissions grew by 2% in the first quarter of 2026, after...\nThe post Analysis: China’s CO2 climbs 2% in early 2026 due to ‘wasted’ wind and solar appeared first on Carbon Brief."
+  },
+  {
+    "id": 8,
+    "title": "Cropped 3 June 2026: Highway through the Amazon | El Niño impact | State of CO2 removal",
+    "source": "Carbon Brief",
+    "date": "2026-06-03",
+    "url": "https://www.carbonbrief.org/cropped-3-june-2026-highway-through-the-amazon-el-nino-impact-state-of-co2-removal/",
+    "tag": "Climate",
+    "summary": "We handpick and explain the most important stories at the intersection of climate, land, food...\nThe post Cropped 3 June 2026: Highway through the Amazon | El Niño impact | State of CO2 removal appeared first on Carbon Brief."
+  },
+  {
+    "id": 9,
+    "title": "Q&A: How UK’s seventh carbon budget will deliver ‘£865bn’ in economic benefits",
+    "source": "Carbon Brief",
+    "date": "2026-06-03",
+    "url": "https://www.carbonbrief.org/qa-how-uks-seventh-carbon-budget-will-deliver-865bn-in-economic-benefits/",
+    "tag": "GHG",
+    "summary": "The Labour government wants to cut UK greenhouse gas emissions to 87% below 1990 levels...\nThe post Q&amp;A: How UK’s seventh carbon budget will deliver &#8216;£865bn’ in economic benefits appeared first on Carbon Brief."
+  },
+  {
+    "id": 10,
+    "title": "Investor climate group closes down, blaming “limits” of shareholder activism",
+    "source": "Climate Home News",
+    "date": "2026-06-03",
+    "url": "https://www.climatechangenews.com/2026/06/03/investor-climate-group-closes-down-blaming-limits-of-shareholder-activism/",
+    "tag": "Climate",
+    "summary": "Canadian campaign group Investors for Paris Compliance shut in May, saying efforts to push companies to tackle climate change have become less effective  \nThe post Investor climate group closes down, blaming &#8220;limits&#8221; of shareholder activism appeared first on Climate H..."
   }
 ]
