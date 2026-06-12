@@ -1,6 +1,42 @@
 [
   {
     "id": 1,
+    "title": "China Briefing 11 June 2026: Tech clampdown | Extreme weather | Provinces’ energy plans",
+    "source": "Carbon Brief",
+    "date": "2026-06-11",
+    "url": "https://www.carbonbrief.org/china-briefing-11-june-2026-tech-clampdown-extreme-weather-provinces-energy-plans/",
+    "tag": "Climate",
+    "summary": "Welcome to Carbon Brief’s China Briefing. China Briefing handpicks and explains the most important climate...\nThe post China Briefing 11 June 2026: Tech clampdown | Extreme weather | Provinces’ energy plans appeared first on Carbon Brief."
+  },
+  {
+    "id": 2,
+    "title": "Fewer journalists register for Bonn talks, as cuts to climate reporting bite",
+    "source": "Climate Home News",
+    "date": "2026-06-11",
+    "url": "https://www.climatechangenews.com/2026/06/11/fewer-journalists-register-for-bonn-talks-as-cuts-to-climate-reporting-bite/",
+    "tag": "Climate",
+    "summary": "UN data shows a smaller number have signed up to cover the mid-year climate negotiations in Germany than in any year since the COVID-19 pandemic\nThe post Fewer journalists register for Bonn talks, as cuts to climate reporting bite appeared first on Climate Home News."
+  },
+  {
+    "id": 3,
+    "title": "WHO issues new guidance on heat-health action plans, as El Niño sets in",
+    "source": "Climate Home News",
+    "date": "2026-06-11",
+    "url": "https://www.climatechangenews.com/2026/06/11/who-issues-new-guidance-on-heat-health-action-plans-as-el-nino-sets-in/",
+    "tag": "Carbon Markets",
+    "summary": "Amid warnings of \"unprecedented\" weather extremes this year, the World Health Organization urges governments to strengthen protections for vulnerable groups\nThe post WHO issues new guidance on heat-health action plans, as El Niño sets in appeared first on Climate Home News."
+  },
+  {
+    "id": 4,
+    "title": "The Pacific made history in the courts – now we must do it in the negotiations",
+    "source": "Climate Home News",
+    "date": "2026-06-11",
+    "url": "https://www.climatechangenews.com/2026/06/11/the-pacific-made-history-in-the-courts-now-we-must-do-it-in-the-negotiations/",
+    "tag": "Climate",
+    "summary": "Legal clarity alone will not lead to reduced emissions, more finance or stronger national climate plans - political will is key to meeting states' obligations \nThe post The Pacific made history in the courts &#8211; now we must do it in the negotiations appeared first on Climate ..."
+  },
+  {
+    "id": 5,
     "title": "Guest post: How a record-high ‘energy imbalance’ is driving global warming",
     "source": "Carbon Brief",
     "date": "2026-06-10",
@@ -9,7 +45,7 @@
     "summary": "The planet is heating up more quickly than ever before. For decades, greenhouse gas emissions...\nThe post Guest post: How a record-high ‘energy imbalance’ is driving global warming appeared first on Carbon Brief."
   },
   {
-    "id": 2,
+    "id": 6,
     "title": "Brazil jostles for rare earths share as US-China rivalry heats up",
     "source": "Climate Home News",
     "date": "2026-06-10",
@@ -18,7 +54,7 @@
     "summary": "With the world's second-largest reserves of rare earths after China, Brazil is catching the eye of US and Chinese companies – spurring the government's critical minerals policy push\nThe post Brazil jostles for rare earths share as US-China rivalry heats up appeared first on Clima..."
   },
   {
-    "id": 3,
+    "id": 7,
     "title": "Cited 9 June 2026: Europe’s ‘exceptional’ heatwave | Warming forecast | AMOC observations ‘at risk’",
     "source": "Carbon Brief",
     "date": "2026-06-09",
@@ -27,7 +63,7 @@
     "summary": "Welcome to Cited, your essential guide to new climate research. In the news SPRING HEATWAVE:...\nThe post Cited 9 June 2026: Europe’s ‘exceptional’ heatwave | Warming forecast | AMOC observations ‘at risk’ appeared first on Carbon Brief."
   },
   {
-    "id": 4,
+    "id": 8,
     "title": "COP31 leaders unveil global targets, with spotlight on electrification",
     "source": "Climate Home News",
     "date": "2026-06-09",
@@ -36,25 +72,7 @@
     "summary": "Co-hosts Türkiye and Australia want countries to sign on to global targets in three of their priority areas for this year’s COP climate negotiations\nThe post COP31 leaders unveil global targets, with spotlight on electrification appeared first on Climate Home News."
   },
   {
-    "id": 5,
-    "title": "The UN climate process needs ambition – the law demands it",
-    "source": "Climate Home News",
-    "date": "2026-06-09",
-    "url": "https://www.climatechangenews.com/2026/06/09/the-un-climate-process-needs-ambition-the-law-demands-it/",
-    "tag": "Climate",
-    "summary": "With a growing focus on implementation, there is a risk that governments will stop raising their emissions-cutting goals, as is urgently required\nThe post The UN climate process needs ambition &#8211; the law demands it appeared first on Climate Home News."
-  },
-  {
-    "id": 6,
-    "title": "Bonn Bulletin: Tackling climate crisis is “hardest” challenge ever, Stiell says",
-    "source": "Climate Home News",
-    "date": "2026-06-08",
-    "url": "https://www.climatechangenews.com/2026/06/08/bonn-bulletin-tackling-climate-crisis-hardest-human-challenge-ever-stiell-says/",
-    "tag": "Climate",
-    "summary": "The June Climate Meetings open with a reminder to delegates of the tough but ever-clearer imperative of shifting away from fossil fuels to clean energy\nThe post Bonn Bulletin: Tackling climate crisis is “hardest” challenge ever, Stiell says appeared first on Climate Home News."
-  },
-  {
-    "id": 7,
+    "id": 9,
     "title": "DeBriefed 5 June 2026: UK eyes 2040 emissions cut | US ‘dismantling’ oceans research | China’s solar slump",
     "source": "Carbon Brief",
     "date": "2026-06-05",
@@ -63,30 +81,12 @@
     "summary": "Welcome to Carbon Brief’s DeBriefed. An essential guide to the week&#8217;s key developments relating to climate...\nThe post DeBriefed 5 June 2026: UK eyes 2040 emissions cut | US ‘dismantling’ oceans research | China’s solar slump appeared first on Carbon Brief."
   },
   {
-    "id": 8,
+    "id": 10,
     "title": "Chart: Why China’s solar boom is slowing down",
     "source": "Carbon Brief",
     "date": "2026-06-05",
     "url": "https://www.carbonbrief.org/chart-why-chinas-solar-boom-is-slowing-down/",
     "tag": "Energy",
     "summary": "Solar power has been a major element of China’s renewables buildout since the mid-2010s.&#160; The...\nThe post Chart: Why China&#8217;s solar boom is slowing down appeared first on Carbon Brief."
-  },
-  {
-    "id": 9,
-    "title": "Offshore oil and gas expansion threatens key marine ecosystems, report warns",
-    "source": "Climate Home News",
-    "date": "2026-06-05",
-    "url": "https://www.climatechangenews.com/2026/06/05/planned-offshore-oil-and-gas-expansion-threatens-key-marine-ecosystems-report-fossil-fuels/",
-    "tag": "Climate",
-    "summary": "Sea life in countries like Kenya is under threat from planned new oil and gas production, environmentalists analysis has found\nThe post Offshore oil and gas expansion threatens key marine ecosystems, report warns appeared first on Climate Home News."
-  },
-  {
-    "id": 10,
-    "title": "Analysis: China’s CO2 climbs 2% in early 2026 due to ‘wasted’ wind and solar",
-    "source": "Carbon Brief",
-    "date": "2026-06-03",
-    "url": "https://www.carbonbrief.org/analysis-chinas-co2-climbs-2-in-early-2026-due-to-wasted-wind-and-solar/",
-    "tag": "Energy",
-    "summary": "China’s carbon dioxide (CO2) emissions grew by 2% in the first quarter of 2026, after...\nThe post Analysis: China’s CO2 climbs 2% in early 2026 due to ‘wasted’ wind and solar appeared first on Carbon Brief."
   }
 ]
