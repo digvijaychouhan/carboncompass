@@ -1,6 +1,33 @@
 [
   {
     "id": 1,
+    "title": "Analysis: UK’s EV drivers are now saving £1,100 each a year – and £3bn in total",
+    "source": "Carbon Brief",
+    "date": "2026-06-15",
+    "url": "https://www.carbonbrief.org/analysis-uks-ev-drivers-are-now-saving-1100-each-a-year-and-3bn-in-total/",
+    "tag": "Carbon Markets",
+    "summary": "Amid reports that the government could weaken the UK’s electric vehicle (EV) targets, Carbon Brief...\nThe post Analysis: UK’s EV drivers are now saving £1,100 each a year – and £3bn in total appeared first on Carbon Brief."
+  },
+  {
+    "id": 2,
+    "title": "UN’s first Paris Agreement carbon credits face human rights and climate concerns",
+    "source": "Climate Home News",
+    "date": "2026-06-15",
+    "url": "https://www.climatechangenews.com/2026/06/15/uns-first-paris-agreement-carbon-credits-face-human-rights-and-climate-concerns/",
+    "tag": "Carbon Credits",
+    "summary": "Civil society groups allege the cookstove project in Myanmar exaggerated its climate impact while maintaining ties with military junta\nThe post UN&#8217;s first Paris Agreement carbon credits face human rights and climate concerns appeared first on Climate Home News."
+  },
+  {
+    "id": 3,
+    "title": "Bonn Bulletin: Finance dominates discussions in every room",
+    "source": "Climate Home News",
+    "date": "2026-06-15",
+    "url": "https://www.climatechangenews.com/2026/06/15/bonn-bulletin-ministry-divisions-complicate-brazils-roadmap-away-from-fossil-fuels/",
+    "tag": "Climate",
+    "summary": "Lack of progress on finance issues - including putting a number on the new goal to triple adaptation funding - is causing blockages across negotiating tracks at UN climate talks\nThe post Bonn Bulletin: Finance dominates discussions in every room appeared first on Climate Home New..."
+  },
+  {
+    "id": 4,
     "title": "DeBriefed 12 June 2026: El Niño begins | COP31 hosts eye electrification | Atlantic current monitoring at risk",
     "source": "Carbon Brief",
     "date": "2026-06-12",
@@ -9,7 +36,7 @@
     "summary": "Welcome to Carbon Brief’s DeBriefed.&#160;An essential guide to the week&#8217;s key developments relating to climate...\nThe post DeBriefed 12 June 2026: El Niño begins | COP31 hosts eye electrification | Atlantic current monitoring at risk appeared first on Carbon Brief."
   },
   {
-    "id": 2,
+    "id": 5,
     "title": "Analysis: Solar overtakes gas power in Asia for first time ever",
     "source": "Carbon Brief",
     "date": "2026-06-12",
@@ -18,7 +45,7 @@
     "summary": "Solar has overtaken gas power in Asia to become the continent’s third-largest source of electricity,...\nThe post Analysis: Solar overtakes gas power in Asia for first time ever appeared first on Carbon Brief."
   },
   {
-    "id": 3,
+    "id": 6,
     "title": "European, island states seek clear future for global roadmap to cut fossil fuels",
     "source": "Climate Home News",
     "date": "2026-06-12",
@@ -27,7 +54,7 @@
     "summary": "Some European, small island and other nations argue the forthcoming roadmap should be part of UN climate talks, while Russia has resisted this idea\nThe post European, island states seek clear future for global roadmap to cut fossil fuels appeared first on Climate Home News."
   },
   {
-    "id": 4,
+    "id": 7,
     "title": "Climate adaptation helps African nations tackle rising conflict over resources",
     "source": "Climate Home News",
     "date": "2026-06-12",
@@ -36,7 +63,7 @@
     "summary": "The growing overlap between insecurity and climate vulnerability is forcing governments and development agencies to rethink adaptation efforts\nThe post Climate adaptation helps African nations tackle rising conflict over resources appeared first on Climate Home News."
   },
   {
-    "id": 5,
+    "id": 8,
     "title": "China Briefing 11 June 2026: Tech clampdown | Extreme weather | Provinces’ energy plans",
     "source": "Carbon Brief",
     "date": "2026-06-11",
@@ -45,7 +72,7 @@
     "summary": "Welcome to Carbon Brief’s China Briefing. China Briefing handpicks and explains the most important climate...\nThe post China Briefing 11 June 2026: Tech clampdown | Extreme weather | Provinces’ energy plans appeared first on Carbon Brief."
   },
   {
-    "id": 6,
+    "id": 9,
     "title": "Fewer journalists register for Bonn talks, as cuts to climate reporting bite",
     "source": "Climate Home News",
     "date": "2026-06-11",
@@ -54,39 +81,12 @@
     "summary": "UN data shows a smaller number have signed up to cover the mid-year climate negotiations in Germany than in any year since the COVID-19 pandemic\nThe post Fewer journalists register for Bonn talks, as cuts to climate reporting bite appeared first on Climate Home News."
   },
   {
-    "id": 7,
-    "title": "WHO issues new guidance on heat-health action plans, as El Niño sets in",
-    "source": "Climate Home News",
-    "date": "2026-06-11",
-    "url": "https://www.climatechangenews.com/2026/06/11/who-issues-new-guidance-on-heat-health-action-plans-as-el-nino-sets-in/",
-    "tag": "Carbon Markets",
-    "summary": "Amid warnings of \"unprecedented\" weather extremes this year, the World Health Organization urges governments to strengthen protections for vulnerable groups\nThe post WHO issues new guidance on heat-health action plans, as El Niño sets in appeared first on Climate Home News."
-  },
-  {
-    "id": 8,
-    "title": "The Pacific made history in the courts – now we must do it in the negotiations",
-    "source": "Climate Home News",
-    "date": "2026-06-11",
-    "url": "https://www.climatechangenews.com/2026/06/11/the-pacific-made-history-in-the-courts-now-we-must-do-it-in-the-negotiations/",
-    "tag": "Climate",
-    "summary": "Legal clarity alone will not lead to reduced emissions, more finance or stronger national climate plans - political will is key to meeting states' obligations \nThe post The Pacific made history in the courts &#8211; now we must do it in the negotiations appeared first on Climate ..."
-  },
-  {
-    "id": 9,
+    "id": 10,
     "title": "Guest post: How a record-high ‘energy imbalance’ is driving global warming",
     "source": "Carbon Brief",
     "date": "2026-06-10",
     "url": "https://www.carbonbrief.org/guest-post-how-a-record-high-energy-imbalance-is-driving-global-warming/",
     "tag": "GHG",
     "summary": "The planet is heating up more quickly than ever before. For decades, greenhouse gas emissions...\nThe post Guest post: How a record-high ‘energy imbalance’ is driving global warming appeared first on Carbon Brief."
-  },
-  {
-    "id": 10,
-    "title": "Cited 9 June 2026: Europe’s ‘exceptional’ heatwave | Warming forecast | AMOC observations ‘at risk’",
-    "source": "Carbon Brief",
-    "date": "2026-06-09",
-    "url": "https://www.carbonbrief.org/cited-9-june-2026-europes-exceptional-heatwave-warming-forecast-amoc-observations-at-risk/",
-    "tag": "Climate",
-    "summary": "Welcome to Cited, your essential guide to new climate research. In the news SPRING HEATWAVE:...\nThe post Cited 9 June 2026: Europe’s ‘exceptional’ heatwave | Warming forecast | AMOC observations ‘at risk’ appeared first on Carbon Brief."
   }
 ]
