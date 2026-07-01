@@ -1,6 +1,33 @@
 [
   {
     "id": 1,
+    "title": "With extreme heat now a public health crisis, local data can save lives",
+    "source": "Climate Home News",
+    "date": "2026-06-30",
+    "url": "https://www.climatechangenews.com/2026/06/30/with-extreme-heat-now-a-public-health-crisis-local-data-can-save-lives/",
+    "tag": "Climate",
+    "summary": "The impacts of extreme heat vary widely across countries and cities, and approaches tailored using data can target solutions at vulnerable groups\nThe post With extreme heat now a public health crisis, local data can save lives appeared first on Climate Home News."
+  },
+  {
+    "id": 2,
+    "title": "Ocean summit stays silent on new wave of offshore oil and gas expansion",
+    "source": "Climate Home News",
+    "date": "2026-06-30",
+    "url": "https://www.climatechangenews.com/2026/06/30/ocean-summit-marine-protection-falls-silent-offshore-oil-and-gas-mombasa/",
+    "tag": "Climate",
+    "summary": "At this month’s Our Ocean Conference in Mombasa, campaigners warned that ocean protection requires governments to halt new offshore fossil fuel projects\nThe post Ocean summit stays silent on new wave of offshore oil and gas expansion appeared first on Climate Home News."
+  },
+  {
+    "id": 3,
+    "title": "UN plastics pact talks restart amid fears production curbs will be left out",
+    "source": "Climate Home News",
+    "date": "2026-06-30",
+    "url": "https://www.climatechangenews.com/2026/06/30/un-plastics-pact-talks-restart-amid-fears-production-curbs-will-be-left-out/",
+    "tag": "Climate",
+    "summary": "Diplomats reconvene a year after negotiations collapsed, but campaigners fear the agenda risks burying tricky discussions on key elements\nThe post UN plastics pact talks restart amid fears production curbs will be left out appeared first on Climate Home News."
+  },
+  {
+    "id": 4,
     "title": "Six charts show how clean power was world’s largest source of new energy in 2025",
     "source": "Carbon Brief",
     "date": "2026-06-29",
@@ -9,7 +36,7 @@
     "summary": "Clean power added more to global energy supplies than any other source in 2025, according...\nThe post Six charts show how clean power was world’s largest source of new energy in 2025 appeared first on Carbon Brief."
   },
   {
-    "id": 2,
+    "id": 5,
     "title": "We need no-go mining zones for the energy transition to be just: Here’s how it could work",
     "source": "Climate Home News",
     "date": "2026-06-29",
@@ -18,7 +45,7 @@
     "summary": "As rising demand for critical minerals is compounding threats to fragile ecosystems, NGOs have mapped out areas that should be off-limits to mining \nThe post We need no-go mining zones for the energy transition to be just: Here&#8217;s how it could work appeared first on Climate ..."
   },
   {
-    "id": 3,
+    "id": 6,
     "title": "Guest post: Climate change has caused one-fifth of Pine Island glacier retreat",
     "source": "Carbon Brief",
     "date": "2026-06-28",
@@ -27,7 +54,7 @@
     "summary": "The Pine Island glacier in West Antarctica is one of the fastest-changing glaciers in the...\nThe post Guest post: Climate change has caused one-fifth of Pine Island glacier retreat appeared first on Carbon Brief."
   },
   {
-    "id": 4,
+    "id": 7,
     "title": "DeBriefed 26 June 2026: Heat records broken across Europe | London climate action week | Introducing ‘Project Cosmos’",
     "source": "Carbon Brief",
     "date": "2026-06-26",
@@ -36,7 +63,7 @@
     "summary": "Welcome to Carbon Brief’s DeBriefed.&#160;An essential guide to the week&#8217;s key developments relating to climate...\nThe post DeBriefed 26 June 2026: Heat records broken across Europe | London climate action week | Introducing ‘Project Cosmos’ appeared first on Carbon Brief."
   },
   {
-    "id": 5,
+    "id": 8,
     "title": "Q&A: What change of power in Colombia could mean for world’s fossil-fuel transition",
     "source": "Carbon Brief",
     "date": "2026-06-26",
@@ -45,7 +72,7 @@
     "summary": "Over the last four years, Colombia has emerged as one of the most vocal advocates...\nThe post Q&amp;A: What change of power in Colombia could mean for world’s fossil-fuel transition appeared first on Carbon Brief."
   },
   {
-    "id": 6,
+    "id": 9,
     "title": "Media reaction: How climate change intensified Europe’s record-breaking June heat",
     "source": "Carbon Brief",
     "date": "2026-06-26",
@@ -54,39 +81,12 @@
     "summary": "For the second time in two months, western and central Europe has been hit by...\nThe post Media reaction: How climate change intensified Europe’s record-breaking June heat appeared first on Carbon Brief."
   },
   {
-    "id": 7,
+    "id": 10,
     "title": "Climate adaptation in Africa needs investment, not imported solutions",
     "source": "Climate Home News",
     "date": "2026-06-26",
     "url": "https://www.climatechangenews.com/2026/06/26/climate-adaptation-in-africa-needs-investment-not-imported-solutions/",
     "tag": "Climate",
     "summary": "Across Africa, communities have implemented vital climate adaptation measures - but these need investment to scale\nThe post Climate adaptation in Africa needs investment, not imported solutions appeared first on Climate Home News."
-  },
-  {
-    "id": 8,
-    "title": "French court rules Total must revise climate plan to account for all emissions",
-    "source": "Climate Home News",
-    "date": "2026-06-26",
-    "url": "https://www.climatechangenews.com/2026/06/26/fossil-fuel-firm-total-must-account-total-emissions-french-court-lawsuit/",
-    "tag": "Climate",
-    "summary": "Oil and gas giant TotalEnergies has been given six months by a court to publish a more robust climate plan\nThe post French court rules Total must revise climate plan to account for all emissions appeared first on Climate Home News."
-  },
-  {
-    "id": 9,
-    "title": "As Nigeria rails at loss and damage “mirage”, fund boss assures money is coming",
-    "source": "Climate Home News",
-    "date": "2026-06-25",
-    "url": "https://www.climatechangenews.com/2026/06/25/as-nigeria-rails-at-loss-and-damage-mirage-fund-boss-assures-money-is-coming/",
-    "tag": "Climate",
-    "summary": "Ibrahima Cheikh Diong, CEO of the loss and damage fund, said he hopes to start spending this year, as pressure mounts for disbursements\nThe post As Nigeria rails at loss and damage “mirage”, fund boss assures money is coming appeared first on Climate Home News."
-  },
-  {
-    "id": 10,
-    "title": "Can the circular economy win over big business?",
-    "source": "Climate Home News",
-    "date": "2026-06-25",
-    "url": "https://www.climatechangenews.com/2026/06/25/can-the-circular-economy-win-over-big-business/",
-    "tag": "Climate",
-    "summary": "Policymakers and businesses are turning to the circular economy in a bid to increase self-reliance and reduce environmental impacts\nThe post Can the circular economy win over big business? appeared first on Climate Home News."
   }
 ]
