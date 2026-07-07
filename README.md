@@ -2,7 +2,7 @@
 
 > Your daily climate & carbon consultancy knowledge hub — auto-updated, zero hosting cost.
 
-**Live at:** `https://yourusername.github.io/carboncompass`
+**Live at:** `https://digvijaychouhan.github.io/carboncompass`
 
 ---
 
