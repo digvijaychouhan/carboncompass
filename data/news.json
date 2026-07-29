@@ -1,6 +1,24 @@
 [
   {
     "id": 1,
+    "title": "Analysis: Wind and solar power overtake fossil fuels in Germany for first time ever",
+    "source": "Carbon Brief",
+    "date": "2026-07-28",
+    "url": "https://www.carbonbrief.org/analysis-wind-and-solar-power-overtake-fossil-fuels-in-germany-for-first-time-ever",
+    "tag": "Energy",
+    "summary": "More of Germany’s electricity came from wind and solar power than fossil fuels for the first time ever in 2025.&#8230;\nThe post Analysis: Wind and solar power overtake fossil fuels in Germany for first time ever appeared first on Carbon Brief."
+  },
+  {
+    "id": 2,
+    "title": "Analysis: 84% of nations miss deadline to identify ‘nature-harming’ subsidies by 2025",
+    "source": "Carbon Brief",
+    "date": "2026-07-28",
+    "url": "https://www.carbonbrief.org/analysis-84-of-nations-miss-deadline-to-identify-nature-harming-subsidies-by-2025",
+    "tag": "Climate",
+    "summary": "Most countries failed to meet a 2025 target to identify all of their subsidies that could be “harmful” to biodiversity,&#8230;\nThe post Analysis: 84% of nations miss deadline to identify ‘nature-harming’ subsidies by 2025  appeared first on Carbon Brief."
+  },
+  {
+    "id": 3,
     "title": "Factcheck: No, Europe’s heatwaves are not being ‘caused’ by declining air pollution",
     "source": "Carbon Brief",
     "date": "2026-07-24",
@@ -9,7 +27,7 @@
     "summary": "This summer has seen Europe suffer through a series of record-breaking heatwaves. Amid widespread media coverage of the number of&#8230;\nThe post Factcheck: No, Europe’s heatwaves are not being ‘caused’ by declining air pollution appeared first on Carbon Brief."
   },
   {
-    "id": 2,
+    "id": 4,
     "title": "Access to finance ‘strengthens climate resilience’ among sub-Saharan women",
     "source": "Carbon Brief",
     "date": "2026-07-24",
@@ -18,30 +36,12 @@
     "summary": "Empowering women through greater access to finance could “strengthen” households&#8217; resilience to “climate shocks”, according to a new study.&#160;&#160; Published&#8230;\nThe post Access to finance ‘strengthens climate resilience’ among sub-Saharan women appeared first on Car..."
   },
   {
-    "id": 3,
+    "id": 5,
     "title": "State of the climate: Rapidly developing El Niño raises chance of record-warm 2026",
     "source": "Carbon Brief",
     "date": "2026-07-24",
     "url": "https://www.carbonbrief.org/state-of-the-climate-rapidly-developing-el-nino-raises-chance-of-record-warm-2026",
     "tag": "Climate",
     "summary": "As 2026 passes its halfway point, the world is watching one of the most rapidly intensifying El Niño events in&#8230;\nThe post State of the climate: Rapidly developing El Niño raises chance of record-warm 2026 appeared first on Carbon Brief."
-  },
-  {
-    "id": 4,
-    "title": "Q&A: What the EU’s carbon market review means for climate action",
-    "source": "Carbon Brief",
-    "date": "2026-07-20",
-    "url": "https://www.carbonbrief.org/qa-what-the-eus-carbon-market-review-means-for-climate-action",
-    "tag": "Carbon Markets",
-    "summary": "The European Commission has put forward new plans to cut emissions under the EU carbon market more slowly, from 2031&#8230;\nThe post Q&amp;A: What the EU’s carbon market review means for climate action appeared first on Carbon Brief."
-  },
-  {
-    "id": 5,
-    "title": "Q&A: Europe’s May and June heatwave deaths – and how they were counted",
-    "source": "Carbon Brief",
-    "date": "2026-07-17",
-    "url": "https://www.carbonbrief.org/qa-europes-may-and-june-heatwave-deaths-and-how-they-were-counted",
-    "tag": "Climate",
-    "summary": "Recent weeks have seen a flurry of reports from public health authorities and scientists that estimate the deaths caused by&#8230;\nThe post Q&amp;A: Europe’s May and June heatwave deaths – and how they were counted appeared first on Carbon Brief."
   }
 ]
