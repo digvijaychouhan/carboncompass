@@ -1,6 +1,42 @@
 [
   {
     "id": 1,
+    "title": "China’s coal power rebounds as record clean energy goes to waste",
+    "source": "Climate Home News",
+    "date": "2026-08-06",
+    "url": "https://www.climatechangenews.com/2026/08/06/china-wastes-clean-power-stopping-coal-use-from-falling/",
+    "tag": "Energy",
+    "summary": "Long-term contracts guarantee coal plants buyers regardless of demand, crowding out renewables, report finds\nThe post China&#8217;s coal power rebounds as record clean energy goes to waste appeared first on Climate Home News."
+  },
+  {
+    "id": 2,
+    "title": "A legal fiction blocking billions in climate finance will be challenged this week",
+    "source": "Climate Home News",
+    "date": "2026-08-05",
+    "url": "https://www.climatechangenews.com/2026/08/05/a-legal-fiction-blocking-billions-in-climate-finance-will-be-challenged-this-week/",
+    "tag": "Climate",
+    "summary": "Governments will gather in New York for tax negotiations which could unlock $500 billion a year\nThe post A legal fiction blocking billions in climate finance will be challenged this week appeared first on Climate Home News."
+  },
+  {
+    "id": 3,
+    "title": "Santa Marta coalition tested as co-chair Colombia turns back to fossil fuels",
+    "source": "Climate Home News",
+    "date": "2026-08-05",
+    "url": "https://www.climatechangenews.com/2026/08/05/santa-marta-coalition-tested-as-co-chair-colombia-turns-back-to-fossil-fuels/",
+    "tag": "Climate",
+    "summary": "Despite a leadership gap, outgoing environment minister Irene Vélez Torres says the anti-fossil fuel coalition can “live without Colombia” \nThe post Santa Marta coalition tested as co-chair Colombia turns back to fossil fuels appeared first on Climate Home News."
+  },
+  {
+    "id": 4,
+    "title": "Southeast Asia’s fragile grids threaten billions in clean energy investment",
+    "source": "Climate Home News",
+    "date": "2026-08-05",
+    "url": "https://www.climatechangenews.com/2026/08/05/southeast-asia-fragile-grids-threaten-billions-in-clean-energy-investment/",
+    "tag": "Energy",
+    "summary": "Renewables developers need reliable electricity infrastructure and stable policies to help the region meet climate goals and surging demand for power\nThe post Southeast Asia&#8217;s fragile grids threaten billions in clean energy investment appeared first on Climate Home News."
+  },
+  {
+    "id": 5,
     "title": "Factcheck: How nuclear, gas, wind and solar power are affected during heatwaves",
     "source": "Carbon Brief",
     "date": "2026-08-04",
@@ -9,7 +45,7 @@
     "summary": "Heatwaves are becoming more likely and more intense due to climate change, impacting sources of power generation around the world&#8230;\nThe post Factcheck: How nuclear, gas, wind and solar power are affected during heatwaves appeared first on Carbon Brief."
   },
   {
-    "id": 2,
+    "id": 6,
     "title": "Is FOMO undermining climate diplomacy?",
     "source": "Climate Home News",
     "date": "2026-08-04",
@@ -18,16 +54,7 @@
     "summary": "The negotiating community has not become 20 times larger, but the COP has - and the rising number of participants, from politicians to business executives, is getting in the way of the task at hand\nThe post Is FOMO undermining climate diplomacy? appeared first on Climate Home New..."
   },
   {
-    "id": 3,
-    "title": "Governments weigh response to US going alone on deep-sea mining",
-    "source": "Climate Home News",
-    "date": "2026-08-04",
-    "url": "https://www.climatechangenews.com/2026/08/04/governments-weigh-response-to-us-going-alone-on-deep-sea-mining/",
-    "tag": "Climate",
-    "summary": "At annual talks in Kingston, the International Seabed Authority (ISA) launched legal processes to challenge a unilateral US push for deep-sea mining\nThe post Governments weigh response to US going alone on deep-sea mining appeared first on Climate Home News."
-  },
-  {
-    "id": 4,
+    "id": 7,
     "title": "Q&A: Does the world need ‘carbon capture and storage’ to reach net-zero?",
     "source": "Carbon Brief",
     "date": "2026-08-03",
@@ -36,25 +63,7 @@
     "summary": "When carbon dioxide (CO2) is released from a factory or power plant, the gas can be captured and permanently stored&#8230;\nThe post Q&amp;A: Does the world need ‘carbon capture and storage’ to reach net-zero? appeared first on Carbon Brief."
   },
   {
-    "id": 5,
-    "title": "Egypt seeks to unlock renewable potential to power regional clean energy hub",
-    "source": "Climate Home News",
-    "date": "2026-08-03",
-    "url": "https://www.climatechangenews.com/2026/08/03/egypt-seeks-to-unlock-renewable-riches-to-power-regional-clean-energy-hub/",
-    "tag": "Energy",
-    "summary": "Europe is investing in Egypt’s bid to position itself as a clean electricity exporter to reduce its emissions and generate a new source of income\nThe post Egypt seeks to unlock renewable potential to power regional clean energy hub appeared first on Climate Home News."
-  },
-  {
-    "id": 6,
-    "title": "UN chief warns climate crisis “in overdrive” as El Niño threatens to fuel the fire",
-    "source": "Climate Home News",
-    "date": "2026-07-31",
-    "url": "https://www.climatechangenews.com/2026/07/31/un-chief-warns-climate-crisis-in-overdrive-as-el-nino-threatens-to-fuel-the-fire/",
-    "tag": "Climate",
-    "summary": "Top politicians and scientists blamed the deadly fires on the climate crisis and said it should inspire more emissions reductions and adaptation measures\nThe post UN chief warns climate crisis &#8220;in overdrive&#8221; as El Niño threatens to fuel the fire appeared first on Clim..."
-  },
-  {
-    "id": 7,
+    "id": 8,
     "title": "Correcting climate ‘misperceptions’ may not boost climate action",
     "source": "Carbon Brief",
     "date": "2026-07-30",
@@ -63,22 +72,13 @@
     "summary": "The general public often underestimate support for climate action, while overestimating the real-world actions taken by other people to address&#8230;\nThe post Correcting climate ‘misperceptions’ may not boost climate action appeared first on Carbon Brief."
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "Factcheck: No, Europe is not having its ‘quietest’ year for wildfires",
     "source": "Carbon Brief",
     "date": "2026-07-30",
     "url": "https://www.carbonbrief.org/factcheck-no-europe-is-not-having-its-quietest-year-for-wildfires",
     "tag": "Climate",
     "summary": "In recent days, prominent climate sceptics and rightwing commentators have shared charts on social media incorrectly implying that Europe is&#8230;\nThe post Factcheck: No, Europe is not having its ‘quietest’ year for wildfires appeared first on Carbon Brief."
-  },
-  {
-    "id": 9,
-    "title": "Hormuz crisis speeds up transition to electric cars, IEA data shows",
-    "source": "Climate Home News",
-    "date": "2026-07-30",
-    "url": "https://www.climatechangenews.com/2026/07/30/hormuz-crisis-speeds-up-transition-to-electric-cars-iea-data-shows/",
-    "tag": "Climate",
-    "summary": "With the oil price soaring amid the Iran war, drivers increasingly chose electric cars over internal combustion engines from April to June this year\nThe post Hormuz crisis speeds up transition to electric cars, IEA data shows appeared first on Climate Home News."
   },
   {
     "id": 10,
