@@ -1,6 +1,33 @@
 [
   {
     "id": 1,
+    "title": "Q&A: What is in China’s new five-year plan for climate change?",
+    "source": "Carbon Brief",
+    "date": "2026-08-06",
+    "url": "https://www.carbonbrief.org/qa-what-is-in-chinas-new-five-year-plan-for-climate-change",
+    "tag": "Climate",
+    "summary": "China has released a five-year plan dedicated to addressing climate change.&#160; The 15th five-year plan for a national response to&#8230;\nThe post Q&amp;A: What is in China’s new five-year plan for climate change? appeared first on Carbon Brief."
+  },
+  {
+    "id": 2,
+    "title": "When taps run dry in the Caribbean, it’s not enough to blame El Niño",
+    "source": "Climate Home News",
+    "date": "2026-08-06",
+    "url": "https://www.climatechangenews.com/2026/08/06/as-heatwave-hits-caribbean-its-not-just-el-nino-to-blame/",
+    "tag": "Climate",
+    "summary": "Climate change means El Niño is heating already hotter land and sea, causing devastation across the region and the world\nThe post When taps run dry in the Caribbean, it’s not enough to blame El Niño appeared first on Climate Home News."
+  },
+  {
+    "id": 3,
+    "title": "Quarter of countries still missing UN climate plans 18 months after deadline",
+    "source": "Climate Home News",
+    "date": "2026-08-06",
+    "url": "https://www.climatechangenews.com/2026/08/06/quarter-of-countries-still-missing-un-climate-plans-18-months-after-deadline/",
+    "tag": "Climate",
+    "summary": "Egypt, Vietnam, Argentina and the Philippines are among the 45 nations which have breached the Paris Agreement by not submitting their climate plan to the UN\nThe post Quarter of countries still missing UN climate plans 18 months after deadline appeared first on Climate Home News."
+  },
+  {
+    "id": 4,
     "title": "China’s coal power rebounds as record clean energy goes to waste",
     "source": "Climate Home News",
     "date": "2026-08-06",
@@ -9,7 +36,7 @@
     "summary": "Long-term contracts guarantee coal plants buyers regardless of demand, crowding out renewables, report finds\nThe post China&#8217;s coal power rebounds as record clean energy goes to waste appeared first on Climate Home News."
   },
   {
-    "id": 2,
+    "id": 5,
     "title": "A legal fiction blocking billions in climate finance will be challenged this week",
     "source": "Climate Home News",
     "date": "2026-08-05",
@@ -18,7 +45,7 @@
     "summary": "Governments will gather in New York for tax negotiations which could unlock $500 billion a year\nThe post A legal fiction blocking billions in climate finance will be challenged this week appeared first on Climate Home News."
   },
   {
-    "id": 3,
+    "id": 6,
     "title": "Santa Marta coalition tested as co-chair Colombia turns back to fossil fuels",
     "source": "Climate Home News",
     "date": "2026-08-05",
@@ -27,16 +54,7 @@
     "summary": "Despite a leadership gap, outgoing environment minister Irene Vélez Torres says the anti-fossil fuel coalition can “live without Colombia” \nThe post Santa Marta coalition tested as co-chair Colombia turns back to fossil fuels appeared first on Climate Home News."
   },
   {
-    "id": 4,
-    "title": "Southeast Asia’s fragile grids threaten billions in clean energy investment",
-    "source": "Climate Home News",
-    "date": "2026-08-05",
-    "url": "https://www.climatechangenews.com/2026/08/05/southeast-asia-fragile-grids-threaten-billions-in-clean-energy-investment/",
-    "tag": "Energy",
-    "summary": "Renewables developers need reliable electricity infrastructure and stable policies to help the region meet climate goals and surging demand for power\nThe post Southeast Asia&#8217;s fragile grids threaten billions in clean energy investment appeared first on Climate Home News."
-  },
-  {
-    "id": 5,
+    "id": 7,
     "title": "Factcheck: How nuclear, gas, wind and solar power are affected during heatwaves",
     "source": "Carbon Brief",
     "date": "2026-08-04",
@@ -45,16 +63,7 @@
     "summary": "Heatwaves are becoming more likely and more intense due to climate change, impacting sources of power generation around the world&#8230;\nThe post Factcheck: How nuclear, gas, wind and solar power are affected during heatwaves appeared first on Carbon Brief."
   },
   {
-    "id": 6,
-    "title": "Is FOMO undermining climate diplomacy?",
-    "source": "Climate Home News",
-    "date": "2026-08-04",
-    "url": "https://www.climatechangenews.com/2026/08/04/is-fomo-undermining-climate-diplomacy/",
-    "tag": "Climate",
-    "summary": "The negotiating community has not become 20 times larger, but the COP has - and the rising number of participants, from politicians to business executives, is getting in the way of the task at hand\nThe post Is FOMO undermining climate diplomacy? appeared first on Climate Home New..."
-  },
-  {
-    "id": 7,
+    "id": 8,
     "title": "Q&A: Does the world need ‘carbon capture and storage’ to reach net-zero?",
     "source": "Carbon Brief",
     "date": "2026-08-03",
@@ -63,7 +72,7 @@
     "summary": "When carbon dioxide (CO2) is released from a factory or power plant, the gas can be captured and permanently stored&#8230;\nThe post Q&amp;A: Does the world need ‘carbon capture and storage’ to reach net-zero? appeared first on Carbon Brief."
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "Correcting climate ‘misperceptions’ may not boost climate action",
     "source": "Carbon Brief",
     "date": "2026-07-30",
@@ -72,21 +81,12 @@
     "summary": "The general public often underestimate support for climate action, while overestimating the real-world actions taken by other people to address&#8230;\nThe post Correcting climate ‘misperceptions’ may not boost climate action appeared first on Carbon Brief."
   },
   {
-    "id": 9,
+    "id": 10,
     "title": "Factcheck: No, Europe is not having its ‘quietest’ year for wildfires",
     "source": "Carbon Brief",
     "date": "2026-07-30",
     "url": "https://www.carbonbrief.org/factcheck-no-europe-is-not-having-its-quietest-year-for-wildfires",
     "tag": "Climate",
     "summary": "In recent days, prominent climate sceptics and rightwing commentators have shared charts on social media incorrectly implying that Europe is&#8230;\nThe post Factcheck: No, Europe is not having its ‘quietest’ year for wildfires appeared first on Carbon Brief."
-  },
-  {
-    "id": 10,
-    "title": "World falling short on 22 of 23 nature targets for 2030, says draft UN report",
-    "source": "Carbon Brief",
-    "date": "2026-07-29",
-    "url": "https://www.carbonbrief.org/world-falling-short-on-22-of-23-nature-targets-for-2030-says-draft-un-report",
-    "tag": "Carbon Markets",
-    "summary": "The global goal to halt and reverse nature loss by 2030 “will not be achieved” unless action by countries “accelerates&#8230;\nThe post World falling short on 22 of 23 nature targets for 2030, says draft UN report appeared first on Carbon Brief."
   }
 ]
