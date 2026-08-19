@@ -1,6 +1,24 @@
 [
   {
     "id": 1,
+    "title": "Explainer: How the ‘super El Niño’ will reshape the world’s weather",
+    "source": "Carbon Brief",
+    "date": "2026-08-18",
+    "url": "https://interactive.carbonbrief.org/el-nino-explainer/index.html",
+    "tag": "Climate",
+    "summary": "The world is currently experiencing what is&#160;expected&#160;to become the strongest El Niño on record – dubbed a “super El Niño”&#8230;\nThe post Explainer: How the ‘super El Niño’ will reshape the world’s weather appeared first on Carbon Brief."
+  },
+  {
+    "id": 2,
+    "title": "Every country needs a model to help optimise its energy transition",
+    "source": "Climate Home News",
+    "date": "2026-08-18",
+    "url": "https://www.climatechangenews.com/2026/08/18/every-country-needs-a-model-to-help-optimise-its-energy-transition/",
+    "tag": "Climate",
+    "summary": "National pledges and platforms alone won’t lead to secure and affordable decarbonised energy systems\nThe post Every country needs a model to help optimise its energy transition appeared first on Climate Home News."
+  },
+  {
+    "id": 3,
     "title": "Analysis: The two largest reservoirs in the US have hit record-low levels",
     "source": "Carbon Brief",
     "date": "2026-08-17",
@@ -9,7 +27,7 @@
     "summary": "The second-largest reservoir in the US reached a record-low water height on Saturday – just days after the country’s largest&#8230;\nThe post Analysis: The two largest reservoirs in the US have hit record-low levels appeared first on Carbon Brief."
   },
   {
-    "id": 2,
+    "id": 4,
     "title": "Why land-use emissions have fallen by a third this century – in six charts",
     "source": "Carbon Brief",
     "date": "2026-08-17",
@@ -18,7 +36,7 @@
     "summary": "Emissions from land-use change – including deforestation, loss of peatland and forest degradation – have been falling over the course&#8230;\nThe post Why land-use emissions have fallen by a third this century – in six charts appeared first on Carbon Brief."
   },
   {
-    "id": 3,
+    "id": 5,
     "title": "“Dangerous consequences” – how AI’s climate framing lets Big Tech off the hook",
     "source": "Climate Home News",
     "date": "2026-08-17",
@@ -27,7 +45,7 @@
     "summary": "Former Microsoft manager Holly Alpine explains why AI's climate danger isn't just data centres but also its unchecked use across the fossil fuel industry\nThe post &#8220;Dangerous consequences&#8221; &#8211; how AI&#8217;s climate framing lets Big Tech off the hook appeared first..."
   },
   {
-    "id": 4,
+    "id": 6,
     "title": "Q&A: What does China’s 15th five-year plan for coal mean for climate action?",
     "source": "Carbon Brief",
     "date": "2026-08-14",
@@ -36,7 +54,7 @@
     "summary": "China has published a new five-year plan for coal, the latest in a slew of important policy documents for the&#8230;\nThe post Q&amp;A: What does China’s 15th five-year plan for coal mean for climate action? appeared first on Carbon Brief."
   },
   {
-    "id": 5,
+    "id": 7,
     "title": "South Africa’s top court blocks Shell’s offshore oil exploration right",
     "source": "Climate Home News",
     "date": "2026-08-14",
@@ -45,7 +63,7 @@
     "summary": "Constitutional Court rules that Shell and its partners failed to consult affected communities and did not properly consider environmental risks\nThe post South Africa&#8217;s top court blocks Shell&#8217;s offshore oil exploration right appeared first on Climate Home News."
   },
   {
-    "id": 6,
+    "id": 8,
     "title": "New coal mine openings slow as East Asian demand plateaus",
     "source": "Climate Home News",
     "date": "2026-08-14",
@@ -54,7 +72,7 @@
     "summary": "China and Australia drove global decline in new capacity additions in 2025, but planned production kept growing\nThe post New coal mine openings slow as East Asian demand plateaus appeared first on Climate Home News."
   },
   {
-    "id": 7,
+    "id": 9,
     "title": "Will the world’s drying lands get relief from COP17 in Mongolia?",
     "source": "Climate Home News",
     "date": "2026-08-13",
@@ -63,30 +81,12 @@
     "summary": "Governments will discuss ways to combat drought and protect herders and their pastures from land degradation in a warming world\nThe post Will the world&#8217;s drying lands get relief from COP17 in Mongolia? appeared first on Climate Home News."
   },
   {
-    "id": 8,
-    "title": "Pushing the climate crisis: How advertising fuels high-carbon lifestyles",
-    "source": "Climate Home News",
-    "date": "2026-08-13",
-    "url": "https://www.climatechangenews.com/2026/08/13/pushing-the-climate-crisis-how-advertising-fuels-high-carbon-lifestyles/",
-    "tag": "Climate",
-    "summary": "With little regulation, the advertising industry continues to promote emissions-heavy activities like flying and meat-eating while making token green efforts \nThe post Pushing the climate crisis: How advertising fuels high-carbon lifestyles appeared first on Climate Home News."
-  },
-  {
-    "id": 9,
+    "id": 10,
     "title": "Analysis: Weaker EV targets could cost UK consumers £3bn a year by 2030",
     "source": "Carbon Brief",
     "date": "2026-08-12",
     "url": "https://www.carbonbrief.org/analysis-weaker-ev-targets-could-cost-uk-consumers-3bn-a-year-by-2030",
     "tag": "Carbon Markets",
     "summary": "An upcoming UK government consultation on weakening targets for electric vehicles (EVs) could cost consumers as much as £3bn a&#8230;\nThe post Analysis: Weaker EV targets could cost UK consumers £3bn a year by 2030 appeared first on Carbon Brief."
-  },
-  {
-    "id": 10,
-    "title": "Q&A: What is in China’s new five-year plan for climate change?",
-    "source": "Carbon Brief",
-    "date": "2026-08-06",
-    "url": "https://www.carbonbrief.org/qa-what-is-in-chinas-new-five-year-plan-for-climate-change",
-    "tag": "Climate",
-    "summary": "China has released a five-year plan dedicated to addressing climate change.&#160; The 15th five-year plan for a national response to&#8230;\nThe post Q&amp;A: What is in China’s new five-year plan for climate change? appeared first on Carbon Brief."
   }
 ]
