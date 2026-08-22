@@ -1,6 +1,15 @@
 [
   {
     "id": 1,
+    "title": "How safeguarding land protects our future",
+    "source": "Climate Home News",
+    "date": "2026-08-21",
+    "url": "https://www.climatechangenews.com/2026/08/21/how-safeguarding-land-protects-our-future/",
+    "tag": "Climate",
+    "summary": "We can turn our growing vulnerability into a source of innovation and hope at COP17 in Mongolia, writes UNEP executive director Inger Andersen\nThe post How safeguarding land protects our future appeared first on Climate Home News."
+  },
+  {
+    "id": 2,
     "title": "Factcheck: 10 flaws in the Conservative report on ‘cheap power’",
     "source": "Carbon Brief",
     "date": "2026-08-20",
@@ -9,7 +18,7 @@
     "summary": "In a new report, the opposition Conservatives argue that UK electricity prices are too high and that it would be&#8230;\nThe post Factcheck: 10 flaws in the Conservative report on ‘cheap power’ appeared first on Carbon Brief."
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "As marine heat breaks records, countries seek ocean roadmap at COP31",
     "source": "Climate Home News",
     "date": "2026-08-20",
@@ -18,7 +27,7 @@
     "summary": "Africa and the EU are leading a push for COP31 to deliver a roadmap that lays out measures to protect fast-warming oceans\nThe post As marine heat breaks records, countries seek ocean roadmap at COP31 appeared first on Climate Home News."
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Collective global roadmap can boost Cambodia’s energy transition goals",
     "source": "Climate Home News",
     "date": "2026-08-20",
@@ -27,7 +36,7 @@
     "summary": "The kingdom aims to source 70% of its power capacity from renewables by 2030 - to get there, it needs international support and cooperation\nThe post Collective global roadmap can boost Cambodia&#8217;s energy transition goals appeared first on Climate Home News."
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "China keeps Indonesia’s battery dream afloat but future less certain",
     "source": "Climate Home News",
     "date": "2026-08-20",
@@ -36,7 +45,7 @@
     "summary": "Chinese capital and technology turned Indonesia into the world’s top nickel supplier, but its dependence on China and the rise of nickel-free batteries could upset its battery ecosystem plans \nThe post China keeps Indonesia’s battery dream afloat but future less certain appeared ..."
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Q&A: What is ‘long-duration energy storage’ – and why does the UK need it?",
     "source": "Carbon Brief",
     "date": "2026-08-19",
@@ -45,7 +54,7 @@
     "summary": "The UK is pioneering the use of “super batteries” that can store energy for long periods, smoothing the output from&#8230;\nThe post Q&amp;A: What is ‘long-duration energy storage’ – and why does the UK need it? appeared first on Carbon Brief."
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "Explainer: How the ‘super El Niño’ will reshape the world’s weather",
     "source": "Carbon Brief",
     "date": "2026-08-18",
@@ -54,7 +63,7 @@
     "summary": "The world is currently experiencing what is&#160;expected&#160;to become the strongest El Niño on record – dubbed a “super El Niño”&#8230;\nThe post Explainer: How the ‘super El Niño’ will reshape the world’s weather appeared first on Carbon Brief."
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "Every country needs a model to help optimise its energy transition",
     "source": "Climate Home News",
     "date": "2026-08-18",
@@ -63,7 +72,7 @@
     "summary": "National pledges and platforms alone won’t lead to secure and affordable decarbonised energy systems\nThe post Every country needs a model to help optimise its energy transition appeared first on Climate Home News."
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "Analysis: The two largest reservoirs in the US have hit record-low levels",
     "source": "Carbon Brief",
     "date": "2026-08-17",
@@ -72,21 +81,12 @@
     "summary": "The second-largest reservoir in the US reached a record-low water height on Saturday – just days after the country’s largest&#8230;\nThe post Analysis: The two largest reservoirs in the US have hit record-low levels appeared first on Carbon Brief."
   },
   {
-    "id": 9,
+    "id": 10,
     "title": "Why land-use emissions have fallen by a third this century – in six charts",
     "source": "Carbon Brief",
     "date": "2026-08-17",
     "url": "https://www.carbonbrief.org/why-land-use-emissions-have-fallen-by-a-third-this-century-in-six-charts",
     "tag": "Climate",
     "summary": "Emissions from land-use change – including deforestation, loss of peatland and forest degradation – have been falling over the course&#8230;\nThe post Why land-use emissions have fallen by a third this century – in six charts appeared first on Carbon Brief."
-  },
-  {
-    "id": 10,
-    "title": "“Dangerous consequences” – how AI’s climate framing lets Big Tech off the hook",
-    "source": "Climate Home News",
-    "date": "2026-08-17",
-    "url": "https://www.climatechangenews.com/2026/08/17/dangerous-consequences-how-ais-climate-framing-lets-big-tech-off-the-hook/",
-    "tag": "Carbon Markets",
-    "summary": "Former Microsoft manager Holly Alpine explains why AI's climate danger isn't just data centres but also its unchecked use across the fossil fuel industry\nThe post &#8220;Dangerous consequences&#8221; &#8211; how AI&#8217;s climate framing lets Big Tech off the hook appeared first..."
   }
 ]
